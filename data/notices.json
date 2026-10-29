@@ -1,0 +1,45 @@
+[
+  {
+    "id": "example-greenpoint",
+    "codename": "EXAMPLE: PAPER MOON",
+    "status": "unknown",
+    "spottedAt": "2024-05-14",
+    "lat": 40.7296,
+    "lng": -73.9542,
+    "place": "Franklin St & Greenpoint Ave",
+    "borough": "Brooklyn",
+    "notes": "Placeholder row so the map isn't empty. Delete once real finds are in.",
+    "example": true
+  },
+  {
+    "id": "example-soho",
+    "codename": "EXAMPLE: NIGHT DESK",
+    "realTitle": "Example Series",
+    "kind": "tv",
+    "year": 2025,
+    "status": "decoded",
+    "spottedAt": "2025-02-03",
+    "lat": 40.7233,
+    "lng": -74.0030,
+    "place": "Spring St & Wooster St",
+    "borough": "Manhattan",
+    "notes": "Placeholder showing a decoded entry with links.",
+    "imdb": "https://www.imdb.com/",
+    "letterboxd": "https://letterboxd.com/",
+    "example": true
+  },
+  {
+    "id": "example-astoria",
+    "codename": "EXAMPLE: LONG TAKE",
+    "realTitle": "Example Feature",
+    "kind": "film",
+    "status": "hunch",
+    "spottedAt": "2023-09-21",
+    "lat": 40.7644,
+    "lng": -73.9235,
+    "place": "31st St & Broadway",
+    "borough": "Queens",
+    "notes": "Placeholder showing a hunch: a guess that isn't confirmed yet.",
+    "example": true
+  }
+]
