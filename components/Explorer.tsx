@@ -239,15 +239,47 @@ function Detail({ notice: n, onBack }: { notice: Notice; onBack: () => void }) {
       <div className="decode">
         <div className="label">On the sign</div>
         <div className="sign">{n.codename}</div>
-        <div className="arrow">↓</div>
-        <div className="label">
-          Really {n.status === "hunch" && <span className="pill hunch">hunch</span>}
-        </div>
-        <div className="truth">{n.realTitle ?? <em>Still a mystery</em>}</div>
+        {n.match && !n.match.isCodename ? (
+          <div className="label straight">Not a codename: filmed under its real title</div>
+        ) : (
+          <>
+            <div className="arrow">↓</div>
+            <div className="label">
+              Really {n.status === "hunch" && <span className="pill hunch">hunch</span>}
+            </div>
+            <div className="truth">{n.realTitle ?? <em>Still a mystery</em>}</div>
+          </>
+        )}
         {(n.kind || n.year) && (
           <div className="sub">{[n.kind && KIND_LABEL[n.kind], n.year].filter(Boolean).join(" · ")}</div>
         )}
+        {n.match && (
+          <div className="confidence">
+            <div className="meter" aria-hidden>
+              <span style={{ width: `${Math.round(n.match.confidence * 100)}%` }} />
+            </div>
+            <span>{Math.round(n.match.confidence * 100)}% confident</span>
+          </div>
+        )}
       </div>
+
+      {n.match && (n.match.reasoning || n.match.sources.length > 0) && (
+        <div className="evidence">
+          {n.match.reasoning && <p>{n.match.reasoning}</p>}
+          {n.match.sources.length > 0 && (
+            <ol>
+              {n.match.sources.map((s) => (
+                <li key={s.url}>
+                  <a href={s.url} target="_blank" rel="noreferrer">
+                    {s.title || new URL(s.url).hostname}
+                  </a>
+                  <span className="host">{new URL(s.url).hostname.replace(/^www\./, "")}</span>
+                </li>
+              ))}
+            </ol>
+          )}
+        </div>
+      )}
 
       {(n.imdb || n.letterboxd) && (
         <div className="links">
@@ -272,6 +304,18 @@ function Detail({ notice: n, onBack }: { notice: Notice; onBack: () => void }) {
               {n.place}
               {n.borough && `, ${n.borough}`}
             </dd>
+          </>
+        )}
+        {n.sign?.company && (
+          <>
+            <dt>Company</dt>
+            <dd>{n.sign.company}</dd>
+          </>
+        )}
+        {n.sign?.dates && (
+          <>
+            <dt>Shooting</dt>
+            <dd>{n.sign.dates}</dd>
           </>
         )}
         {n.spottedAt && (

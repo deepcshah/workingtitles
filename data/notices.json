@@ -24,6 +24,14 @@
     "place": "Spring St & Wooster St",
     "borough": "Manhattan",
     "notes": "Placeholder showing a decoded entry with links.",
+    "sign": { "company": "Example Productions LLC", "dates": "Mon 2/3 – Wed 2/5, 6AM–11PM" },
+    "match": {
+      "isCodename": true,
+      "confidence": 0.86,
+      "reasoning": "Placeholder: the LLC on the sign matches the production company named in a local filming report for the same week.",
+      "sources": [{ "title": "Example source", "url": "https://letterboxd.com/" }],
+      "decodedAt": "2026-10-30T00:00:00.000Z"
+    },
     "imdb": "https://www.imdb.com/",
     "letterboxd": "https://letterboxd.com/",
     "example": true

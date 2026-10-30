@@ -24,6 +24,24 @@ export interface Notice {
   place?: string;
   borough?: "Manhattan" | "Brooklyn" | "Queens" | "Bronx" | "Staten Island";
   notes?: string;
+  /** what Claude read off the sign */
+  sign?: {
+    company?: string;
+    dates?: string;
+    location?: string;
+    contact?: string;
+    other?: string;
+    legibility?: number;
+  };
+  /** result of the one-time search/match at ingest */
+  match?: {
+    isCodename: boolean;
+    /** 0–1 */
+    confidence: number;
+    reasoning?: string;
+    sources: { title?: string; url: string }[];
+    decodedAt: string;
+  };
   /** true for the placeholder rows that ship with the repo */
   example?: boolean;
 }
