@@ -74,6 +74,9 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
     (async () => {
       const maplibregl = await import("maplibre-gl");
       if (cancelled || !mapEl.current) return;
+      // Turbopack doesn't resolve MapLibre's default worker URL; serve it from
+      // /public instead (copied there by scripts/copy-maplibre-worker.mjs).
+      maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
       const map = new maplibregl.Map({
         container: mapEl.current,
         style: STYLE_URL,

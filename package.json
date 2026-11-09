@@ -4,7 +4,9 @@
   "private": true,
   "description": "A map of NYC film shoot notices I've photographed: the codename on the sign vs. what it actually was.",
   "scripts": {
+    "predev": "node scripts/copy-maplibre-worker.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/copy-maplibre-worker.mjs",
     "build": "next build",
     "start": "next start",
     "ingest": "node --env-file-if-exists=.env.local scripts/ingest.mjs",
