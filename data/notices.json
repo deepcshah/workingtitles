@@ -6272,5 +6272,348 @@
       "decodedAt": "2026-11-09T16:35:16.686Z"
     },
     "gps": "exif"
+  },
+  {
+    "id": "2f4fd0fa-eefc-4f7e-a712-1ca29532b1da",
+    "codename": "FOR LIFE",
+    "status": "decoded",
+    "photo": "/photos/2f4fd0fa-eefc-4f7e-a712-1ca29532b1da.webp",
+    "spottedAt": "2019-10-29",
+    "lat": 40.69314444444444,
+    "lng": -73.99124166666667,
+    "sign": {
+      "dates": "No parking/towing begins Wednesday - 10/30/2019, 10pm. Shoot day(s) & date(s): Thursday - 10/31/2019",
+      "location": "Remsen & Court St (BK) (from photo overlay caption, not printed on the sign)",
+      "contact": "Location Manager & Cell: Paul E - 914-281-1385; Location Dept. # 929-296-2088 (partly obscured on the sign)",
+      "other": "NO PARKING. Vehicles will be towed to the nearest legal spot if not moved by the date and time above. NYPD and Made in NY logos. The City of New York, Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. If your vehicle has been relocated, please call 311. Two identical notices posted one above the other.",
+      "legibility": 0.95
+    },
+    "place": "Remsen & Court St (BK) (from photo overlay caption, not printed on the sign)",
+    "realTitle": "For Life",
+    "kind": "tv",
+    "year": 2020,
+    "imdb": "https://www.imdb.com/title/tt10327830/",
+    "letterboxd": "https://letterboxd.com/search/For%20Life/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.82,
+      "reasoning": "The sign title matches ABC's NYC-shot drama \"For Life\". Season 1 was in production in fall 2019 before its Feb 2020 premiere. The Court St/Remsen location is next to Brooklyn courthouses, which fits a legal drama. No source ties this specific sign to the show.",
+      "sources": [
+        {
+          "title": "For Life (TV series) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/For_Life_(TV_series)"
+        },
+        {
+          "title": "For Life (TV Series 2020–2021) - IMDb",
+          "url": "https://www.imdb.com/title/tt10327830/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:27:08.860Z"
+    }
+  },
+  {
+    "id": "d84197e3-681f-4ba6-9cfc-f69a93b622bc",
+    "codename": "Last OG Season 3",
+    "status": "decoded",
+    "photo": "/photos/d84197e3-681f-4ba6-9cfc-f69a93b622bc.webp",
+    "spottedAt": "2019-11-23",
+    "lat": 40.693016666666665,
+    "lng": -73.99090555555556,
+    "sign": {
+      "dates": "Vehicles moved by: Sunday 11/24/2019 (printed as \"Sunday11/242019\"), 4PM. Shoot day(s) & date: Monday 11/25/2019, shoot time 7AM.",
+      "location": "Court & Remsen, Downtown BK (from overlay caption on the photo, not printed on the sign)",
+      "contact": "Location Manager: Justin K, cell (631)-213-1439",
+      "other": "NO PARKING. Film Shoot. Parking can be held a maximum of 24 hours in advance of the date & time indicated below (as spaces become available). NYPD logo. Made in NY logo. The City of New York Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. For non-emergency NYC info or comments, dial 311. If your vehicle is moved call 311. Location Dept #: (631)-213-1439.",
+      "legibility": 0.95
+    },
+    "place": "Court & Remsen, Downtown BK (from overlay caption on the photo, not printed on the sign)",
+    "realTitle": "The Last O.G. (Season 3)",
+    "kind": "tv",
+    "year": 2020,
+    "imdb": "https://www.imdb.com/find/?q=The%20Last%20O.G.%20(Season%203)",
+    "letterboxd": "https://letterboxd.com/search/The%20Last%20O.G.%20(Season%203)/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.9,
+      "reasoning": "The sign shows the real show title, TBS's Brooklyn-set sitcom The Last O.G. The Nov 2019 shoot fits Season 3, which premiered April 7, 2020. The Court & Remsen location is in Downtown Brooklyn, which matches the show's setting.",
+      "sources": [
+        {
+          "title": "Deadline: The Last O.G. Season 3 premiere date",
+          "url": "https://deadline.com/2020/02/the-last-o-g-season-3-premiere-date-tbs-tracy-morgan-tiffany-haddish-jordan-peele-1202860378/"
+        },
+        {
+          "title": "The Root: Season 3 premiere clip",
+          "url": "https://www.theroot.com/the-last-o-g-first-look-tracy-morgan-knows-finding-an-1842703185"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:27:16.943Z"
+    }
+  },
+  {
+    "id": "img-3794",
+    "codename": "FUGUE",
+    "status": "decoded",
+    "photo": "/photos/img-3794.webp",
+    "spottedAt": "2022-05-08",
+    "lat": 40.77346111111111,
+    "lng": -73.98204166666667,
+    "sign": {
+      "dates": "VEHICLES MUST BE MOVED BY: DATE: THUR. 5/12, TIME: 5:00AM",
+      "contact": "AIDAN, 347-450-5261",
+      "other": "PARKING FILM SHOOT. Parking can be held a maximum of 24 hours in advance of the date & time indicated below (as spaces become available). Made in NY logo. The City of New York Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. For comments, dial 311. A partially visible white letter beside it begins \"Dear Residents...\" and mentions \"Apple TV's...\" (mostly unreadable).",
+      "legibility": 0.95
+    },
+    "realTitle": "Dear Edward",
+    "kind": "tv",
+    "year": 2023,
+    "imdb": "https://www.imdb.com/find/?q=Dear%20Edward",
+    "letterboxd": "https://letterboxd.com/search/Dear%20Edward/",
+    "match": {
+      "isCodename": true,
+      "confidence": 0.95,
+      "reasoning": "\"Fugue\" was the working title for Apple TV+'s Dear Edward, which shot in NYC from March 2022 with parking signs posted under that name. The sign's \"Apple TV's...\" letter fits.",
+      "sources": [
+        {
+          "title": "East Side Feed: Apple TV Series to Film on UES and UWS",
+          "url": "https://eastsidefeed.com/arts-and-entertainment/apple-tv-series-starring-connie-britton-taylor-schilling-to-film-tomorrow/"
+        },
+        {
+          "title": "W42ST: Dear Edward filming on 9th Avenue",
+          "url": "https://w42st.com/post/dear-edward-new-apple-tv-show-filming-on-9th-avenue-this-week/"
+        },
+        {
+          "title": "Cinemaholic: Dear Edward filming locations",
+          "url": "https://thecinemaholic.com/where-is-dear-edward-filmed/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:27:26.058Z"
+    }
+  },
+  {
+    "id": "img-5562",
+    "codename": "Hello Darkness",
+    "status": "decoded",
+    "photo": "/photos/img-5562.webp",
+    "spottedAt": "2026-07-27",
+    "lat": 40.649947222222224,
+    "lng": -73.96228055555555,
+    "sign": {
+      "dates": "Shoot day & date: Tuesday, June 30, 2026; Shoot time: 07:00 AM (AM checked). Vehicles must be moved by: 06/29 5:00P",
+      "contact": "Ryan F, 347-455-1780 (Location Manager & Cell); Location Dept #: 347-455-1780",
+      "other": "NO PARKING / FILM SHOOT. NYPD logo. Made in NY logo. \"Parking can be held a maximum of 24 hours in advance of the date & time indicated below (as spaces become available).\" Sign is in a JustBasics plastic sleeve.",
+      "legibility": 0.85
+    },
+    "realTitle": "Hello Darkness, My Old Friend",
+    "kind": "film",
+    "year": 2027,
+    "imdb": "https://www.imdb.com/find/?q=Hello%20Darkness%2C%20My%20Old%20Friend",
+    "letterboxd": "https://letterboxd.com/search/Hello%20Darkness%2C%20My%20Old%20Friend/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.85,
+      "reasoning": "The sign title \"Hello Darkness\" matches the Wayfarer Studios period film shooting in NYC in June–July 2026. Central Casting's SAG-AFTRA background calls for \"Hello Darkness\" (1960s, Brooklyn) fit the sign's dates. The sign most likely shows a shortened real title, not a codename. No source ties this specific sign or the location manager to the production.",
+      "sources": [
+        {
+          "title": "SAG-AFTRA Hello Darkness casting",
+          "url": "https://www.sagaftra.org/hello-darkness-0"
+        },
+        {
+          "title": "Production List",
+          "url": "https://www.productionlist.com/production/hello-darkness-my-old-friend"
+        },
+        {
+          "title": "Deadline: Wayfarer adapting Hello Darkness, My Old Friend",
+          "url": "https://deadline.com/2024/08/wayfarer-studios-hello-darkness-my-old-friend-art-garfunkel-1236029556/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:27:34.247Z"
+    }
+  },
+  {
+    "id": "img-7091",
+    "codename": "TP2",
+    "status": "decoded",
+    "photo": "/photos/img-7091.webp",
+    "spottedAt": "2019-11-06",
+    "lat": 40.72412777777778,
+    "lng": -74.00016111111111,
+    "sign": {
+      "company": "Pacific 2.1 Entertainment Group, Inc. (per the white letter; 295 Locust Avenue, 2nd Floor, Bronx, NY 10454)",
+      "dates": "No parking: vehicles towed if not moved by Wed. 11/6, 10:00 PM. Shoot day(s)/date(s): Thur. 11/7. White letter (dated Thursday, November 5, 2019): filming Thursday, November 7th, between 9:00am - 9:30pm.",
+      "location": "White letter lists parking held/cleared on: Greene St. btwn Houston St. & Spring St.; Mercer Street btwn Houston St. & Spring St.; Prince St. btwn Mercer St. & Broadway; Broadway btwn Houston St. & Prince St. (the letter says filming on Greene Street, addressed to SOHO residents)",
+      "contact": "Location Manager: Brendan; Location Dept. #: 929.288.4110",
+      "other": "NYPD No Parking notice, \"Vehicles will be towed to the nearest legal spot if not moved by\". \"If your vehicle has been relocated – please call 311\". The City of New York Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting; \"Made in NY\" logo. White letter says Pacific 2.1 Entertainment Group is in production of a Netflix television series. Letter footer: O: 929.288.4110 | F: 929.288.4092.",
+      "legibility": 0.97
+    },
+    "place": "White letter lists parking held/cleared on: Greene St. btwn Houston St. & Spring St.; Mercer Street btwn Houston St. & Spring St.; Prince St. btwn Mercer St. & Broadway; Broadway btwn Houston St. & Prince St. (the letter says filming on Greene Street, addressed to SOHO residents)",
+    "realTitle": "The Politician (Season 2)",
+    "kind": "tv",
+    "year": 2020,
+    "imdb": "https://www.imdb.com/find/?q=The%20Politician%20(Season%202)",
+    "letterboxd": "https://letterboxd.com/search/The%20Politician%20(Season%202)/",
+    "match": {
+      "isCodename": true,
+      "confidence": 0.9,
+      "reasoning": "Pacific 2.1 Entertainment Group at 295 Locust Ave, Bronx is the production company listed for The Politician season 2 (Netflix, NYC, started Nov 5, 2019). \"TP2\" stands for The Politician 2. Backstage reported cast filming near Prince Street in Lower Manhattan at this time.",
+      "sources": [
+        {
+          "title": "BTL Production Listings - The Politician 02",
+          "url": "https://www.findfilmwork.com/project-info.php?projectid=33270&guest=1"
+        },
+        {
+          "title": "NYC What's Filming: Season 2 of Netflix's The Politician",
+          "url": "https://www.backstage.com/magazine/article/nyc-filming-netflix-the-politician-ben-platt-gwyneth-paltrow-69478/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:27:45.129Z"
+    }
+  },
+  {
+    "id": "img-8214",
+    "codename": "Midnight Mass Production",
+    "status": "unknown",
+    "photo": "/photos/img-8214.webp",
+    "spottedAt": "2019-12-24",
+    "lat": 40.75835,
+    "lng": -73.97494444444445,
+    "sign": {
+      "dates": "Wednesday, Dec. 24th; Shoot time: 12/24 (8a?) - 12/25 (3a?) — the hour digits are smudged and hard to read",
+      "contact": "Andrew Conti / Christian Taussig (last name uncertain), 212-210-2411 (handwritten, small, partly uncertain)",
+      "other": "Printed form: \"NO PARKING – FILM SHOOT. Parking can be held a maximum of 24 hours in advance of the date & time indicated below. Vehicles must be moved by:\" Location Dept #: \"News\". NYPD logo, \"Made in NY\" logo, NYC Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. \"For non-emergency NYC info or comments, dial 311.\"",
+      "legibility": 0.85
+    },
+    "realTitle": "Midnight Mass",
+    "kind": "tv",
+    "year": 2021,
+    "imdb": "https://www.imdb.com/find/?q=Midnight%20Mass",
+    "letterboxd": "https://letterboxd.com/search/Midnight%20Mass/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.25,
+      "reasoning": "The sign title matches Mike Flanagan's Netflix series Midnight Mass, whose prep began in Dec 2019. But the show was based in British Columbia, and I found no source for an NYC shoot or any link to the contacts on the sign. This is an unverified guess. The sign could also be for a different small production, such as a short film or news-style shoot, that used the same title.",
+      "sources": [
+        {
+          "title": "Midnight Mass (miniseries) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Midnight_Mass_(miniseries)"
+        },
+        {
+          "title": "Filming Has Wrapped on Midnight Mass - Bloody Disgusting",
+          "url": "https://bloody-disgusting.com/tv/3645398/filming-wrapped-mike-flanagans-new-netflix-horror-series-midnight-mass/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:28:00.815Z"
+    }
+  },
+  {
+    "id": "img-8255",
+    "codename": "CHAIR COMPANY S2",
+    "status": "decoded",
+    "photo": "/photos/img-8255.webp",
+    "spottedAt": "2026-11-01",
+    "lat": 40.72243888888889,
+    "lng": -73.95565833333333,
+    "sign": {
+      "dates": "Vehicles must be moved by: 11/2/26 10PM. Shoot day & date: Tuesday 11/3/2026. Shoot time: 7AM (AM circled)",
+      "contact": "Julie 347-389-4529 (Location Manager & Cell #); Location Dept #: 347-389-4529",
+      "other": "NO PARKING / FILM SHOOT. Parking can be held a maximum of 24 hours in advance of the date & time indicated below (as spaces become available). NYPD logo; Made in NY logo; The City of New York Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. For non-emergency NYC info or comments, dial 311. Three identical copies posted on one pole.",
+      "legibility": 0.95
+    },
+    "realTitle": "The Chair Company (Season 2)",
+    "kind": "tv",
+    "year": 2027,
+    "imdb": "https://www.imdb.com/title/tt31987295/",
+    "letterboxd": "https://letterboxd.com/search/The%20Chair%20Company%20(Season%202)/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.9,
+      "reasoning": "The sign title \"Chair Company S2\" is the real title of HBO's The Chair Company season 2. Production trackers list S2 as shooting in NYC from August to November 2026, which fits the 11/3/2026 shoot date.",
+      "sources": [
+        {
+          "title": "The Chair Company (Season 2) - ProductionList",
+          "url": "https://www.productionlist.com/production/chair-company-season-2"
+        },
+        {
+          "title": "The Chair Company Production Info - Up-To-Date Actor",
+          "url": "https://uptodateactor.com/database/projDetails/the-chair-company-6650/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:28:09.668Z"
+    }
+  },
+  {
+    "id": "img-8635",
+    "codename": "Prodigal Son",
+    "status": "decoded",
+    "photo": "/photos/img-8635.webp",
+    "spottedAt": "2020-01-25",
+    "lat": 40.67836666666666,
+    "lng": -73.98980833333333,
+    "sign": {
+      "dates": "No parking: Thursday 01/30/20, 10PM (AM/PM marker unclear). Shoot day(s) & date(s): Friday 01/31/20",
+      "contact": "Location manager: Morgan (first name only legible), cell 917-830-6716 (partly obscured; may be 917-630-6716). Location dept: 718-906-24?? (final digits obscured; the lower sign may read 718-906-2497).",
+      "other": "NO PARKING. Vehicles will be TOWED to the nearest legal spot not blocked by [text obscured]. NYPD logo and Made in NY logo. \"If your vehicle has been removed, please call 911\". Small print at lower right is illegible.",
+      "legibility": 0.6
+    },
+    "realTitle": "Prodigal Son",
+    "kind": "tv",
+    "year": 2020,
+    "imdb": "https://www.imdb.com/find/?q=Prodigal%20Son",
+    "letterboxd": "https://letterboxd.com/search/Prodigal%20Son/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.85,
+      "reasoning": "Fox's Prodigal Son was in production in NYC for season 1 through March 2020, so a January 2020 NYC shoot notice with that title is almost certainly the show itself. I found nothing that ties this specific sign, location manager or phone number to the production.",
+      "sources": [
+        {
+          "title": "Prodigal Son (TV series) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prodigal_Son_(TV_series)"
+        },
+        {
+          "title": "Prodigal Son season 2 filming (production suspended March 2020)",
+          "url": "https://www.nerdsandbeyond.com/2020/10/13/prodigal-son-begins-filming-on-season-2-see-the-cast-reactions-here/"
+        },
+        {
+          "title": "NYC What's Filming: Prodigal Son",
+          "url": "https://www.backstage.com/magazine/article/nyc-filming-serial-killer-drama-prodigal-son-michael-sheen-67491/"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:28:20.477Z"
+    }
+  },
+  {
+    "id": "img-8885",
+    "codename": "GOTHAM",
+    "status": "decoded",
+    "photo": "/photos/img-8885.webp",
+    "spottedAt": "2016-09-01",
+    "lat": 40.73721388888889,
+    "lng": -73.98756388888889,
+    "sign": {
+      "dates": "Vehicles must be moved by: Wednesday 8/31/16, 8:00 (AM/PM circled, unclear). Shoot day & date: Thursday 9/1/2016",
+      "contact": "Location Manager & Cell: DJ Campbell 646.575.8861; Location Dept #: 917.671.4495",
+      "other": "NO PARKING / FILM SHOOT. NYPD logo. \"Parking can be held a maximum of 24 hours in advance of the date & time indicated below. No overnight parking. Vehicles MUST be moved by:\" Footer: \"For non-emergency NYC info or comments, dial 311\" – The City of New York, Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. A separate regular sign on the truck reads NO PARKING 7 AM-9 AM, 4:30 PM-6:30 PM, except Sat-Sun & holidays.",
+      "legibility": 0.95
+    },
+    "realTitle": "Gotham",
+    "kind": "tv",
+    "year": 2016,
+    "imdb": "https://www.imdb.com/find/?q=Gotham",
+    "letterboxd": "https://letterboxd.com/search/Gotham/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.9,
+      "reasoning": "The sign shows the real title of Fox's Gotham, which filmed in NYC. Season 3 was in production in Aug–Sept 2016 (on-set photos from 23 Aug 2016), ahead of its Sept 19, 2016 premiere, so the 9/1/2016 shoot date fits season 3.",
+      "sources": [
+        {
+          "title": "Gotham season 3",
+          "url": "https://en.wikipedia.org/wiki/Gotham_season_3"
+        },
+        {
+          "title": "Get a First Look at Gotham Season 3",
+          "url": "https://www.superherohype.com/news/379039-get-a-first-look-at-gotham-season-3-in-a-new-video"
+        }
+      ],
+      "decodedAt": "2026-11-09T17:28:29.292Z"
+    }
   }
 ]
