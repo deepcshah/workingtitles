@@ -36,7 +36,9 @@ export async function readSign(imageBuffer, mediaType = "image/webp") {
     model: MODEL,
     max_tokens: 1024,
     tools: [SIGN_TOOL],
-    tool_choice: { type: "tool", name: "record_sign" },
+    // `tool_choice: auto` (not a forced "tool"): claude-sonnet-5-5 rejects forced
+    // tool choice. The prompt tells it to call record_sign, which it does reliably.
+    tool_choice: { type: "auto" },
     messages: [
       {
         role: "user",
@@ -46,7 +48,8 @@ export async function readSign(imageBuffer, mediaType = "image/webp") {
             type: "text",
             text:
               "This is a photo of a notice posted on a New York City street, usually announcing a film/TV shoot and parking restrictions. " +
-              "Transcribe exactly what it says. Don't guess at text you can't read; leave fields empty instead.",
+              "Transcribe exactly what it says, then call record_sign with the fields. " +
+              "Don't guess at text you can't read; leave fields empty instead.",
           },
         ],
       },

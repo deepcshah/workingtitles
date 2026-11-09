@@ -10,3 +10,6 @@ next-env.d.ts
 # raw photos waiting to be ingested (originals can be huge and carry full EXIF)
 photos/inbox/*
 !photos/inbox/.gitkeep
+# backlog of raw photos not yet promoted to the inbox
+photos/queue/
+.env*
