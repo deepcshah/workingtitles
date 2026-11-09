@@ -118,7 +118,10 @@ if (args[0] === "--refresh-gps") {
     if (!n) { noEntry++; continue; }
     let meta = {};
     try {
-      meta = (await exifr.parse(path.join(INBOX, file), { gps: true, pick: ["latitude", "longitude"] })) ?? {};
+      meta = (await exifr.parse(path.join(INBOX, file), {
+        gps: true,
+        pick: ["GPSLatitude", "GPSLatitudeRef", "GPSLongitude", "GPSLongitudeRef"],
+      })) ?? {};
     } catch {}
     if (meta.latitude == null || meta.longitude == null) { noGps++; continue; }
     n.lat = Number(meta.latitude.toFixed(6));
@@ -147,7 +150,12 @@ for (const file of files) {
 
   let meta = {};
   try {
-    meta = (await exifr.parse(src, { gps: true, pick: ["DateTimeOriginal", "CreateDate", "latitude", "longitude"] })) ?? {};
+    // NB: `latitude`/`longitude` are derived fields, not EXIF tags — picking them
+    // yields undefined. Pick the raw GPS* tags; exifr then computes lat/lng.
+    meta = (await exifr.parse(src, {
+      gps: true,
+      pick: ["DateTimeOriginal", "CreateDate", "GPSLatitude", "GPSLatitudeRef", "GPSLongitude", "GPSLongitudeRef"],
+    })) ?? {};
   } catch {}
 
   const when = meta.DateTimeOriginal ?? meta.CreateDate;

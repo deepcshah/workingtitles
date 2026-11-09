@@ -51,9 +51,8 @@
     "codename": "God friended me",
     "status": "decoded",
     "photo": "/photos/0c5cbbe4-ad4a-44b1-a9a0-f2f6b0f459cc.webp",
-    "lat": 40.6869,
-    "lng": -73.9783,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.686775,
+    "lng": -73.979172,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by: Tuesday 1-7-2020, 10pm. Shoot day(s) & date(s): Wednesday 1-8-2020",
       "location": "Lafayette & Rockwell (BK) — from an overlay caption on the photo, not printed on the sign itself",
@@ -87,14 +86,8 @@
       ],
       "decodedAt": "2026-11-09T15:27:09.968Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "Lafayette & Rockwell (BK) — from an overlay caption on the photo, not printed on the sign itself | Lafayette & Rockwell (BK) — from an overlay caption on the photo, not printed on the sign itself",
-      "neighborhood": "Fort Greene",
-      "borough": "Brooklyn",
-      "confidence": 0.8
-    },
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "gps": "exif"
   },
   {
     "id": "54d609c7-d0a8-4716-b075-2534934c139d",
@@ -265,9 +258,8 @@
     "status": "decoded",
     "photo": "/photos/img-0149.webp",
     "spottedAt": "2024-03-29",
-    "lat": 40.6862,
-    "lng": -73.9937,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.686694,
+    "lng": -73.993844,
     "sign": {
       "company": "WB Pictures (Locations Department), per the attached flyer",
       "dates": "No parking: Thursday 04/04/2024, time 10PM. Shoot day/date: Friday 04/05/2024. Flyer: Friday 4/5/2024 from 8:00 AM - 11:00 PM; move vehicle by 10:00 PM on Thursday, April 4th, 2024.",
@@ -302,14 +294,8 @@
       ],
       "decodedAt": "2026-11-09T15:28:23.972Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "Court St between Bergen St & Wyckoff St (and other Court St blocks: Wyckoff/Warren, Warren/Baltic, Baltic/Kane, Kane/Clinton, Baltic/Butler, Kane/DeGraw, DeGraw/Sackett, Sackett/Union, Union/President) — partially legible on the secondary flyer | Court St between Bergen St & Wyckoff St (and other Court St blocks: Wyckoff/Warren, Warren/Baltic, Baltic/Kane, Kane/Clinton, Baltic/Butler, Kane/DeGraw, DeGraw/Sackett, Sackett/Union, Union/President) — partially legible on the secondary flyer",
-      "neighborhood": "Cobble Hill",
-      "borough": "Brooklyn",
-      "confidence": 0.75
-    },
-    "borough": "Brooklyn"
+    "borough": "Brooklyn",
+    "gps": "exif"
   },
   {
     "id": "img-0177",
@@ -317,9 +303,8 @@
     "status": "decoded",
     "photo": "/photos/img-0177.webp",
     "spottedAt": "2017-09-23",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.673644,
+    "lng": -73.972892,
     "sign": {
       "dates": "Vehicles must be moved by Tuesday 9/26/17 8:00 PM (PM circled); shoot days WED/THURS 9/27, 9/28/2017",
       "contact": "Location Manager DJ Campbell, cell 646.575.8861; Location Dept 917.671.4495",
@@ -346,7 +331,8 @@
         }
       ],
       "decodedAt": "2026-11-09T15:28:34.890Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0196",
@@ -354,9 +340,8 @@
     "status": "decoded",
     "photo": "/photos/img-0196.webp",
     "spottedAt": "2026-01-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.705017,
+    "lng": -74.009864,
     "sign": {
       "legibility": 0.9
     },
@@ -384,7 +369,8 @@
         }
       ],
       "decodedAt": "2026-11-09T15:28:47.483Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0200",
@@ -392,9 +378,8 @@
     "status": "decoded",
     "photo": "/photos/img-0200.webp",
     "spottedAt": "2026-01-16",
-    "lat": 40.7048,
-    "lng": -74.0105,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.705372,
+    "lng": -74.007814,
     "sign": {
       "company": "Universal Television, LLC and Wolf Films, Inc.",
       "dates": "Yellow NYPD No Parking notice: Vehicles must be moved by 10pm Monday 1/19/2026; shoot day & date: Tuesday 1/20/2026; shoot time: 6am. White letter (dated 1/13/2026): filming Tuesday, January 20, 2026 & Wednesday, January 21, 2026, approximately 7:00AM – 9:00PM; parking held in advance of filming.",
@@ -429,14 +414,8 @@
       ],
       "decodedAt": "2026-11-09T15:28:57.622Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "SOUTH Side of Pearl St btw Hanover Sq & Wall St (1/2 Block); SOUTH Side of Pearl St btw Wall St & Pine St (1/2 Block); WEST Side of Wall St btw Pearl St & Water St (Full Block). Locations department address: 300 North Henry Street, Brooklyn, NY 11222 | SOUTH Side of Pearl St btw Hanover Sq & Wall St (1/2 Block); SOUTH Side of Pearl St btw Wall St & Pine St (1/2 Block); WEST Side of Wall St btw Pearl St & Water St (Full Block). Locations department address: 300 North Henry Street, Brooklyn, NY 11222",
-      "neighborhood": "Financial District",
-      "borough": "Manhattan",
-      "confidence": 0.8
-    },
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "gps": "exif"
   },
   {
     "id": "img-0215",
@@ -444,9 +423,8 @@
     "status": "hunch",
     "photo": "/photos/img-0215.webp",
     "spottedAt": "2022-10-07",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719261,
+    "lng": -73.956153,
     "sign": {
       "dates": "Vehicles must be moved by: Monday 10/10/22 10:00PM. Shoot day & date: Tuesday October 11, 2022. Shoot time: 6AM-10PM",
       "contact": "Location Manager & Cell #: MIKE; Location Dept #: 917-720-2591",
@@ -473,7 +451,8 @@
         }
       ],
       "decodedAt": "2026-11-09T15:59:27.285Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0223",
@@ -481,9 +460,8 @@
     "status": "decoded",
     "photo": "/photos/img-0223.webp",
     "spottedAt": "2024-04-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.708603,
+    "lng": -74.004906,
     "sign": {
       "dates": "Vehicles will be towed to the nearest legal spot if not moved by time: 10PM (partially obscured). Day & Date: Sunday - 3/31/24. Shoot Day(s) & Date(s): Mon - 4/1 & Tues - 4/2/24. Parking can be held a maximum of 24 hours in advance of the shoot date & time indicated above (as spaces become available).",
       "contact": "Josh - 718-866-0179; Location Dept. 929-260-3670",
@@ -510,7 +488,8 @@
         }
       ],
       "decodedAt": "2026-11-09T15:59:35.752Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0331",
@@ -594,9 +573,8 @@
     "status": "decoded",
     "photo": "/photos/img-0337.webp",
     "spottedAt": "2022-10-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.651997,
+    "lng": -73.961922,
     "sign": {
       "dates": "Tuesday 10/11/2022, shoot time 6.00 AM (AM/PM line not circled/marked)",
       "contact": "Location Manager & Cell: Ryan F 914-269-8204; Location Dept #: 914-269-8204",
@@ -623,7 +601,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:00:06.578Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0345",
@@ -631,9 +610,8 @@
     "status": "decoded",
     "photo": "/photos/img-0345.webp",
     "spottedAt": "2016-11-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.738456,
+    "lng": -73.991928,
     "sign": {
       "company": "Eye Productions Inc.",
       "dates": "Shoot Day & Date: Thur 11/10/16 6am; Shoot Time: Thur 11/10/16 6am-11pm",
@@ -657,7 +635,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:00:14.651Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0356",
@@ -665,9 +644,8 @@
     "status": "decoded",
     "photo": "/photos/img-0356.webp",
     "spottedAt": "2022-10-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649456,
+    "lng": -73.962053,
     "sign": {
       "dates": "Monday 10/17/22, 6AM (vehicles must be moved by this time; parking can be held a maximum of 24 hours in advance of the date & time indicated, as spaces become available)",
       "contact": "Location Manager & cell: BET 9178704675; Location Dept #: 9178704675",
@@ -698,7 +676,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:00:23.808Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0409",
@@ -706,9 +685,8 @@
     "status": "hunch",
     "photo": "/photos/img-0409.webp",
     "spottedAt": "2022-10-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.647025,
+    "lng": -73.969397,
     "sign": {
       "dates": "October 19,2022; 6am to 6pm",
       "contact": "212-203-8938 (Location Manager & Cell); John perez (handwritten, Location Dept # line)",
@@ -726,7 +704,8 @@
       "reasoning": "The sign shows the client name \"AT&T\" rather than a show title, which suggests a commercial shoot for AT&T. Searches found no source tying this sign, date or contact to a specific campaign.",
       "sources": [],
       "decodedAt": "2026-11-09T16:00:31.567Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0548",
@@ -771,9 +750,8 @@
     "status": "unknown",
     "photo": "/photos/img-0567.webp",
     "spottedAt": "2026-02-03",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.764678,
+    "lng": -73.978194,
     "sign": {
       "dates": "TUESDAY 2/3/26, 12:01AM TO 11:59PM (AM box checked)",
       "contact": "Location Manager: SCOTT S; Location Dept #: 917-912-4400",
@@ -787,7 +765,8 @@
       "reasoning": "No source ties the \"SPECIAL SCREENING\" sign title to any production. Searches returned only unrelated screening events and general NYC production lists. The title looks like a working title, but I couldn't identify the show.",
       "sources": [],
       "decodedAt": "2026-11-09T16:01:04.247Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0583",
@@ -865,10 +844,10 @@
     "status": "unknown",
     "photo": "/photos/img-0612.webp",
     "spottedAt": "2025-08-09",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
-    "sign": {}
+    "lat": 40.730522,
+    "lng": -73.957833,
+    "sign": {},
+    "gps": "exif"
   },
   {
     "id": "img-0645",
@@ -876,9 +855,8 @@
     "status": "decoded",
     "photo": "/photos/img-0645.webp",
     "spottedAt": "2016-11-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.737944,
+    "lng": -73.989967,
     "sign": {
       "dates": "No parking from SUN-11/27/201? at 10:00pm; shoot day MON-11/28/201? (year's last digit obscured)",
       "contact": "Location Manager: Damon, 914-774-3499",
@@ -905,7 +883,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:02:10.870Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0647",
@@ -913,9 +892,8 @@
     "status": "decoded",
     "photo": "/photos/img-0647.webp",
     "spottedAt": "2025-08-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.721925,
+    "lng": -74.000092,
     "sign": {
       "dates": "Shoot Day & Date: MONDAY 8/11/2025; Shoot Time: 7AM (AM circled); Vehicles must be moved by: 8/10/25 10PM",
       "contact": "Location Manager & Cell #: ROB H. 917-727-2051; Location Dept #: 917-727-2051",
@@ -942,7 +920,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:02:19.200Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0648",
@@ -950,9 +929,8 @@
     "status": "hunch",
     "photo": "/photos/img-0648.webp",
     "spottedAt": "2025-08-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.723575,
+    "lng": -74.000664,
     "sign": {
       "dates": "Sunday Aug. 10 2025, shoot time 4AM (AM circled). Vehicles must be moved by this time; parking can be held a maximum of 24 hours in advance, as spaces become available.",
       "contact": "Justin (Location Manager), Location Dept # 732-993-8741",
@@ -978,7 +956,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:02:31.796Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0672",
@@ -986,14 +965,14 @@
     "status": "unknown",
     "photo": "/photos/img-0672.webp",
     "spottedAt": "2018-10-31",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.687011,
+    "lng": -73.975686,
     "sign": {
       "dates": "Saturday 6:00 PM until Sunday 6:00 PM (in connection with the 2018 NYC Marathon)",
       "other": "NO PARKING. IN CONNECTION WITH THE 2018 NYC MARATHON. VIOLATORS WILL BE TOWED. New York City Police Department - Patrol Borough Brooklyn North. This is an NYPD parking restriction notice, not a film/TV shoot notice.",
       "legibility": 0.97
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0683",
@@ -1001,9 +980,8 @@
     "status": "decoded",
     "photo": "/photos/img-0683.webp",
     "spottedAt": "2018-11-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.787933,
+    "lng": -73.955772,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by: Wednesday Oct. 31 (year cut off), 10:00 (AM/PM circled, appears PM). Shoot day & date: Thursday Nov. 01 (year cut off)",
       "contact": "Location manager Micheal 347-329-57.. (cut off); Location Dept. 347-329-5774",
@@ -1030,7 +1008,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:02:45.510Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0687",
@@ -1038,9 +1017,8 @@
     "status": "unknown",
     "photo": "/photos/img-0687.webp",
     "spottedAt": "2025-08-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.789178,
+    "lng": -73.954903,
     "sign": {
       "dates": "No parking from Mon Aug 18 2025, 10PM; Shoot day(s) & date(s): Tues Aug 19 2025",
       "contact": "Location Manager: Jackson; Location Dept. # 646-450-9702",
@@ -1053,7 +1031,8 @@
       "reasoning": "Searches found no source tying the \"Lensmen\" sign title or the Location Manager contact to any specific production. The only \"Lensmen\" results were E. E. Smith's Lensman novels and the 1984 anime, which are unrelated to an NYC shoot in August 2025. The title looks like a working title, but the real production is unidentified.",
       "sources": [],
       "decodedAt": "2026-11-09T16:03:02.520Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0739",
@@ -1061,9 +1040,8 @@
     "status": "hunch",
     "photo": "/photos/img-0739.webp",
     "spottedAt": "2022-11-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.775294,
+    "lng": -73.98185,
     "sign": {
       "dates": "Sun, Mon 11/13, 14/22 — vehicles must be moved by 12:01 AM (AM box checked)",
       "contact": "Scott Sexton (location manager). Location Dept # is handwritten as (917) _ _ _ 4400, but the middle digits are unclear.",
@@ -1090,7 +1068,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:03:19.692Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0745",
@@ -1098,9 +1077,8 @@
     "status": "unknown",
     "photo": "/photos/img-0745.webp",
     "spottedAt": "2022-11-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.764653,
+    "lng": -73.977089,
     "sign": {
       "dates": "Vehicles must be moved by: MON NOV 14th @ 5PM. Shoot date: TUES NOVEMBER 15, 2022. Shoot time: 5AM-11PM",
       "contact": "Location Manager: KATIE (646) 427-6510; Location Dept #: (646) 427-6510",
@@ -1123,7 +1101,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:03:34.457Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0810",
@@ -1131,9 +1110,8 @@
     "status": "unknown",
     "photo": "/photos/img-0810.webp",
     "spottedAt": "2025-08-21",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.736053,
+    "lng": -74.000861,
     "sign": {
       "dates": "Monday August 25, 2025 (vehicles towed if not moved by 6AM on Monday August 25, 2025)",
       "contact": "Location Manager: Dennis; Location Dept. #: 929-399-7344",
@@ -1146,7 +1124,8 @@
       "reasoning": "Searches turned up nothing that ties \"IWFY\" to any NYC production in August 2025. Results were songs, a Brooklyn leather brand and generic production lists. \"IWFY\" looks like an acronym-style working title, but I couldn't identify the real production.",
       "sources": [],
       "decodedAt": "2026-11-09T16:03:55.024Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-0973",
@@ -1154,9 +1133,8 @@
     "status": "unknown",
     "photo": "/photos/img-0973.webp",
     "spottedAt": "2017-10-22",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.689033,
+    "lng": -73.983428,
     "sign": {
       "dates": "Vehicles must be moved by: MONDAY 10/23/2017, 6AM (AM circled). Parking can be held a maximum of 24 hours in advance of the date & time (as spaces become available).",
       "contact": "718.906.2368 (Location Manager & Cell; Location Dept # is the same number)",
@@ -1170,7 +1148,8 @@
       "reasoning": "No source ties the \"LEVI\" sign to any production. Searches found only unrelated Levi-titled films (a 2019 Nigerian drama, a Buffalo indie) and no working-title record for NYC in October 2017. I'm leaving the real title unknown.",
       "sources": [],
       "decodedAt": "2026-11-09T16:04:21.741Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1132",
@@ -1178,9 +1157,8 @@
     "status": "unknown",
     "photo": "/photos/img-1132.webp",
     "spottedAt": "2026-03-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.650219,
+    "lng": -73.962447,
     "sign": {
       "dates": "Vehicles towed by Wednesday 3/18/26, 10PM. Shoot day(s) & date(s): Thursday 3/19/26",
       "contact": "Location Manager & Cell: NURSE 347-619-3469; Location Dept. #: 347-619-3469",
@@ -1194,7 +1172,8 @@
       "reasoning": "Searches for \"W.T.D.K\"/\"WTDK\" found nothing tying that title or the location manager contact to any known production. The title looks like an acronym working title, but I couldn't identify what it stands for.",
       "sources": [],
       "decodedAt": "2026-11-09T16:04:40.424Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1145",
@@ -1202,9 +1181,8 @@
     "status": "unknown",
     "photo": "/photos/img-1145.webp",
     "spottedAt": "2025-09-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.752472,
+    "lng": -73.984414,
     "sign": {
       "dates": "Vehicles must be moved by: Thurs Sept 11 2025, 6:00 AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Drew, Location Dept #: 646-450-9702",
@@ -1218,7 +1196,8 @@
       "reasoning": "Searches turned up no source tying the title \"WP\" or the contact (Drew, 646-450-9702) to any production. I couldn't identify the show, so I'm not guessing a title.",
       "sources": [],
       "decodedAt": "2026-11-09T16:04:55.864Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1272",
@@ -1226,9 +1205,8 @@
     "status": "decoded",
     "photo": "/photos/img-1272.webp",
     "spottedAt": "2017-01-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.675803,
+    "lng": -73.974542,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by: Sunday 1/15/2017, 10PM (AM/PM selection circled/blacked out). Shoot day(s) & date(s): Monday 1/16/2017",
       "contact": "Location Manager & Cell #: 718.906.3332; Location Dept. #: 718.906.3332",
@@ -1255,7 +1233,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:05:04.921Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1515",
@@ -1263,9 +1242,8 @@
     "status": "decoded",
     "photo": "/photos/img-1515.webp",
     "spottedAt": "2017-11-18",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.7425,
+    "lng": -73.984886,
     "sign": {
       "dates": "Shoot day & date: FRIDAY 11/17/2017. No parking from THURSDAY 11/16/2017, 10 PM.",
       "contact": "PAT (646) 712-2547",
@@ -1292,7 +1270,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:05:14.627Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1544",
@@ -1300,9 +1279,8 @@
     "status": "decoded",
     "photo": "/photos/img-1544.webp",
     "spottedAt": "2021-10-29",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.64985,
+    "lng": -73.961975,
     "sign": {
       "dates": "Shoot day & date: WED 11/3/2021, shoot time 7AM. Vehicles must be moved by TUE NOV 2ND @7AM. Parking can be held a maximum of 24 hours in advance.",
       "contact": "Location Manager & Cell: (929) 325-0300; Location Dept: (929) 325-0300",
@@ -1329,7 +1307,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:05:25.100Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1650",
@@ -1337,9 +1316,8 @@
     "status": "decoded",
     "photo": "/photos/img-1650.webp",
     "spottedAt": "2021-11-06",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.773981,
+    "lng": -73.982261,
     "sign": {
       "dates": "SUN. NOV. 7TH – TUES. NOV. 9TH, 2021; Shoot time: 11/7: 7AM thru 11/9: 6AM",
       "contact": "Location Manager: FRANK RILEY 973.454.9941; Location Dept #: 212.663.5564",
@@ -1366,7 +1344,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:05:37.126Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1658",
@@ -1374,9 +1353,8 @@
     "status": "decoded",
     "photo": "/photos/img-1658.webp",
     "spottedAt": "2018-09-24",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.712036,
+    "lng": -73.996917,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by Sunday September 23, 10:00 pm; Shoot day(s) & date(s): Monday, September 24, 2018",
       "contact": "Location Manager: Taylor; Location Dept #: 347-955-0313; NYPD Tow Unit: 212-971-0782",
@@ -1403,7 +1381,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:05:45.495Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1760",
@@ -1411,9 +1390,8 @@
     "status": "decoded",
     "photo": "/photos/img-1760.webp",
     "spottedAt": "2025-10-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649678,
+    "lng": -73.962525,
     "sign": {
       "dates": "Tuesday 10/14/2025, 6:00 AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated. For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before.",
       "contact": "Kathy 347-352-5315 (Location Manager & Cell); Location Dept # 347-352-5315",
@@ -1444,7 +1422,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:05:56.053Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1792",
@@ -1452,9 +1431,8 @@
     "status": "decoded",
     "photo": "/photos/img-1792.webp",
     "spottedAt": "2021-11-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.720619,
+    "lng": -73.994972,
     "sign": {
       "dates": "TUES NOV 16 2021, 5:00AM (vehicles must be moved by this time; parking can be held a maximum of 24 hours in advance of the date & time indicated, as spaces become available)",
       "contact": "Paul (Location Manager), cell 347-670-0277",
@@ -1485,7 +1463,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:06:05.825Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1793",
@@ -1493,9 +1472,8 @@
     "status": "unknown",
     "photo": "/photos/img-1793.webp",
     "spottedAt": "2021-11-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719964,
+    "lng": -73.995414,
     "sign": {
       "dates": "MON. 11/08/21, 5:00 AM TO 10:00 PM",
       "contact": "Location Manager: Elizabeth; Location Dept #: 516-366-0061",
@@ -1509,7 +1487,8 @@
       "reasoning": "Searches found nothing tying \"UJTP\" to any NYC production in November 2021. It is probably an acronym of an \"Untitled ... Project\" style working title, but no source confirms the real production.",
       "sources": [],
       "decodedAt": "2026-11-09T16:06:24.090Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1847",
@@ -1517,9 +1496,8 @@
     "status": "decoded",
     "photo": "/photos/img-1847.webp",
     "spottedAt": "2025-10-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.751897,
+    "lng": -73.975014,
     "sign": {
       "dates": "Day & Date (no parking): Monday 10/13, time 10PM; Shoot day(s) & date(s): Tuesday 10/14",
       "contact": "Location Manager: Brendan, cell 917-397-0792",
@@ -1550,7 +1528,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:06:34.289Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1867",
@@ -1558,9 +1537,8 @@
     "status": "decoded",
     "photo": "/photos/img-1867.webp",
     "spottedAt": "2025-10-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649544,
+    "lng": -73.962844,
     "sign": {
       "dates": "Tuesday 10/14/2025, 6:00 AM (AM checked). Parking can be held a max of 24 hours in advance; for shoots starting 6AM-11AM, move vehicles by 10PM the night before.",
       "contact": "Location Manager: Kathy 347-352-5315; Location Dept #: 347-352-5315",
@@ -1590,7 +1568,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:06:52.724Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1897",
@@ -1598,9 +1577,8 @@
     "status": "decoded",
     "photo": "/photos/img-1897.webp",
     "spottedAt": "2025-10-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.751606,
+    "lng": -73.97435,
     "sign": {
       "dates": "Vehicles towed if not moved by Monday 10/13, 10PM. Shoot day(s)/date(s): Tuesday 10/14",
       "contact": "Location Manager: Brendan; Location Dept. # 917-397-0792",
@@ -1630,7 +1608,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:07:04.970Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1898",
@@ -1638,9 +1617,8 @@
     "status": "unknown",
     "photo": "/photos/img-1898.webp",
     "spottedAt": "2025-10-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.752156,
+    "lng": -73.97535,
     "sign": {
       "legibility": 0.95
     },
@@ -1650,7 +1628,8 @@
       "reasoning": "Searches for the sign title \"WP\" turned up nothing connecting it to any NYC production in October 2025. Results were unrelated (WP Theater, Working Title Films, other films). I can't identify the production.",
       "sources": [],
       "decodedAt": "2026-11-09T16:07:23.698Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-1903",
@@ -1658,9 +1637,8 @@
     "status": "decoded",
     "photo": "/photos/img-1903.webp",
     "spottedAt": "2017-11-29",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.730858,
+    "lng": -73.989364,
     "sign": {
       "dates": "No parking / tow after Wednesday 11/29/2017 10 PM; shoot day Thursday 11/30/2017",
       "contact": "Location Manager: Rocco 347.574.5170; Location Dept: 347.725.4445",
@@ -1691,7 +1669,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:07:38.138Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2016",
@@ -1699,9 +1678,8 @@
     "status": "decoded",
     "photo": "/photos/img-2016.webp",
     "spottedAt": "2024-07-19",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.725472,
+    "lng": -73.997178,
     "sign": {
       "dates": "Vehicles towed by Day & Date: Sunday 21st July 2024, Time: 10PM. Shoot Day(s) & Date(s): Monday 22th July 2024",
       "contact": "Paul (Location Manager), Location Dept. # 1-347-927-9377",
@@ -1728,7 +1706,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:07:45.920Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2033",
@@ -1736,9 +1715,8 @@
     "status": "hunch",
     "photo": "/photos/img-2033.webp",
     "spottedAt": "2017-04-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.6726,
+    "lng": -73.966033,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by: Friday 4/21/2017, 6 AM. Shoot day(s) & date(s): Friday 4/21/2017",
       "contact": "Location Manager & cell: Rocco 917.627.8074; Location Dept. #: 347.725.4445",
@@ -1769,7 +1747,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:08:06.812Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2136",
@@ -1777,9 +1756,8 @@
     "status": "decoded",
     "photo": "/photos/img-2136.webp",
     "spottedAt": "2017-12-11",
-    "lat": 40.7515,
-    "lng": -73.9805,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.752067,
+    "lng": -73.979361,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by: Sunday 12/10/17, 10PM. Shoot day(s) & date(s): Monday 12/11/17",
       "location": "295 Madison (visible on the building awning in the photo, not printed on the notice itself)",
@@ -1809,14 +1787,8 @@
       ],
       "decodedAt": "2026-11-09T16:08:15.563Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "295 Madison (visible on the building awning in the photo, not printed on the notice itself) | 295 Madison (visible on the building awning in the photo, not printed on the notice itself)",
-      "neighborhood": "Murray Hill",
-      "borough": "Manhattan",
-      "confidence": 0.8
-    },
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "gps": "exif"
   },
   {
     "id": "img-2211",
@@ -1824,9 +1796,8 @@
     "status": "decoded",
     "photo": "/photos/img-2211.webp",
     "spottedAt": "2021-12-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.696961,
+    "lng": -73.991203,
     "sign": {
       "dates": "TUESDAY 12/14-THURSDAY 12/16/2021, 7AM (AM circled)",
       "contact": "ROB H. 917-727-2051",
@@ -1853,7 +1824,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:08:23.702Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2261",
@@ -1861,9 +1833,8 @@
     "status": "decoded",
     "photo": "/photos/img-2261.webp",
     "spottedAt": "2023-01-24",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.718097,
+    "lng": -73.990119,
     "sign": {
       "dates": "Thursday - 1/26/23, 6:00 am (AM checked). Vehicles must be moved by this date/time. Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager & Cell: Chris - 929-260-3670; Location Dept #: 929-946-8310",
@@ -1894,7 +1865,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:08:33.383Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2265",
@@ -1902,9 +1874,8 @@
     "status": "unknown",
     "photo": "/photos/img-2265.webp",
     "spottedAt": "2023-01-24",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.738103,
+    "lng": -73.990111,
     "sign": {
       "dates": "Vehicles must be moved by MON. 1/9 - 10:00PM; Shoot day & date: TUE. (date partly covered by tape); Shoot time: 5:00 AM (the \"AM\" is partly covered by tape)",
       "contact": "Nicole, 646-504-4249 (Location Manager & Cell)",
@@ -1927,7 +1898,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:08:52.942Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2504",
@@ -1935,14 +1907,14 @@
     "status": "unknown",
     "photo": "/photos/img-2504.webp",
     "spottedAt": "2017-05-17",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.672711,
+    "lng": -73.966683,
     "sign": {
       "dates": "Friday May 19 8:00 AM to Saturday May 20 10:00 AM",
       "other": "NO PARKING; VEHICLES WILL BE TOWED. Faint police-style shield watermark in the background, lettering not legible.",
       "legibility": 0.95
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2514",
@@ -1964,9 +1936,8 @@
     "status": "hunch",
     "photo": "/photos/img-2602.webp",
     "spottedAt": "2017-05-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.7379,
+    "lng": -74.0019,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by: MON. 05/29/17, 10:00 PM. Shoot day: TUES. 05/30/17",
       "contact": "Amanda, cell 917-671-4868; Location Dept. 917-671-4868; NYPD Tow Unit 212-971-0782",
@@ -1993,7 +1964,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:09:20.011Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2670",
@@ -2001,9 +1973,8 @@
     "status": "decoded",
     "photo": "/photos/img-2670.webp",
     "spottedAt": "2015-12-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.708317,
+    "lng": -74.007539,
     "sign": {
       "dates": "No parking/vehicles towed if not moved by: Tuesday 12/15/2015, 10 PM. Shoot day(s) & date(s): Wednesday 12/16/15 6AM-ALLDA[Y] (text cut off at the edge)",
       "contact": "Location Manager & Cell #: 718.906.3300; Location Dept. #: 718.906.3300; NYPD Tow Unit: 212-971-0782 (partly blurred)",
@@ -2030,7 +2001,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:09:29.804Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2690",
@@ -2038,13 +2010,13 @@
     "status": "unknown",
     "photo": "/photos/img-2690.webp",
     "spottedAt": "2017-06-08",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.713469,
+    "lng": -73.998506,
     "sign": {
       "other": "NO POLICE PARKING PERMIT FREE ZONE. VIOLATORS WILL BE TOWED. New York City Police Department. (NYPD shield watermark in background; tiny illegible form code in bottom right corner.)",
       "legibility": 0.95
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2724",
@@ -2052,14 +2024,14 @@
     "status": "unknown",
     "photo": "/photos/img-2724.webp",
     "spottedAt": "2017-06-14",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719775,
+    "lng": -73.955453,
     "sign": {
       "dates": "SUNDAY (no specific date or hours printed)",
       "other": "Sign reads \"NO PARKING SUNDAY\" and \"POLICE DEPARTMENT\" with a faint NYPD shield watermark. Form code in the lower left appears to be \"SP 134 (11-14)\". The sign is a pink or salmon police parking restriction notice in a plastic sleeve.",
       "legibility": 0.95
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2786",
@@ -2067,9 +2039,8 @@
     "status": "decoded",
     "photo": "/photos/img-2786.webp",
     "spottedAt": "2024-08-19",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.753472,
+    "lng": -73.972167,
     "sign": {
       "dates": "Shoot day & date: TUESDAY 8/20/24; Shoot time: 6AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available). For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before.",
       "contact": "Location Manager: JULIE; Location Dept #: 551.501.9546",
@@ -2096,7 +2067,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:09:45.367Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2883",
@@ -2104,9 +2076,8 @@
     "status": "decoded",
     "photo": "/photos/img-2883.webp",
     "spottedAt": "2022-02-06",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.729289,
+    "lng": -73.960122,
     "sign": {
       "dates": "Shoot Day & Date: Monday 1/31/2022; Shoot Time: 6AM (AM checked)",
       "contact": "Location Manager & Cell: Drew 929-257-1715; Location Dept #: 347-955-0322",
@@ -2133,7 +2104,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:09:53.770Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-2995",
@@ -2141,9 +2113,8 @@
     "status": "decoded",
     "photo": "/photos/img-2995.webp",
     "spottedAt": "2022-02-19",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.777192,
+    "lng": -73.978058,
     "sign": {
       "dates": "Vehicles must be moved by: Tuesday 2/22/22, 6:00 AM",
       "contact": "Location Manager: Matt (374)266-5377; Location Dept: (347)266-5377",
@@ -2174,7 +2145,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:10:06.457Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3116",
@@ -2182,9 +2154,8 @@
     "status": "decoded",
     "photo": "/photos/img-3116.webp",
     "spottedAt": "2025-11-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.752158,
+    "lng": -73.982025,
     "sign": {
       "dates": "Thursday 11/13/25, shoot time 6AM (AM checked). For shoots starting between 6AM-11AM, move vehicles by 10PM the night before. Parking can be held a maximum of 24 hours in advance.",
       "contact": "Location Manager: Kristin, 347-676-0303; Location Dept: 347-676-0303",
@@ -2215,7 +2186,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:10:25.051Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3117",
@@ -2223,9 +2195,8 @@
     "status": "decoded",
     "photo": "/photos/img-3117.webp",
     "spottedAt": "2025-11-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.752158,
+    "lng": -73.982025,
     "sign": {
       "dates": "THURSDAY 11/13/25, 6AM (AM checked). For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before. Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager: Kristin, 347-676-0303; Location Dept #: 347-676-0303",
@@ -2256,7 +2227,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:10:38.217Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3200",
@@ -2264,9 +2236,8 @@
     "status": "decoded",
     "photo": "/photos/img-3200.webp",
     "spottedAt": "2023-02-18",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.718875,
+    "lng": -73.987206,
     "sign": {
       "dates": "THURSDAY 2/23, 5:00AM (vehicles must be moved by this time; parking can be held a maximum of 24 hours in advance of the date & time indicated, as spaces become available)",
       "contact": "Location Manager: AIDAN, 347-450-5261 (Location Dept #)",
@@ -2293,7 +2264,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:10:45.645Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3213",
@@ -2338,9 +2310,8 @@
     "status": "decoded",
     "photo": "/photos/img-3233.webp",
     "spottedAt": "2023-02-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.724328,
+    "lng": -73.994431,
     "sign": {
       "dates": "Vehicles must be moved by Tuesday 2/28/23 7AM; Shoot day & date: Wednesday 3/01/23; Shoot time: 7AM. Parking can be held a maximum of 24 hours in advance.",
       "contact": "Location Manager & Cell #: (929)325-0300; Location Dept #: (929)325-0300",
@@ -2367,7 +2338,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:11:09.340Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3263",
@@ -2398,9 +2370,8 @@
     "status": "decoded",
     "photo": "/photos/img-3303.webp",
     "spottedAt": "2022-03-18",
-    "lat": 40.7327,
-    "lng": -74.0057,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.731981,
+    "lng": -74.003869,
     "sign": {
       "dates": "Vehicles must be moved by: FRIDAY 3/18/22, Shoot time: 6:00 AM (AM box checked)",
       "location": "Street signs visible in background: Commerce St and Cherry Ln (not printed on the notice itself)",
@@ -2434,14 +2405,8 @@
       ],
       "decodedAt": "2026-11-09T16:11:30.324Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "Street signs visible in background: Commerce St and Cherry Ln (not printed on the notice itself) | Street signs visible in background: Commerce St and Cherry Ln (not printed on the notice itself)",
-      "neighborhood": "West Village",
-      "borough": "Manhattan",
-      "confidence": 0.85
-    },
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "gps": "exif"
   },
   {
     "id": "img-3317",
@@ -2449,9 +2414,8 @@
     "status": "decoded",
     "photo": "/photos/img-3317.webp",
     "spottedAt": "2022-03-19",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649575,
+    "lng": -73.962783,
     "sign": {
       "dates": "THURSDAY 3/24, 5AM (AM/PM)",
       "contact": "Location Manager & Cell #: 347-610-9095; Location Dept #: 347-610-9095",
@@ -2478,7 +2442,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:11:39.816Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3380",
@@ -2486,9 +2451,8 @@
     "status": "decoded",
     "photo": "/photos/img-3380.webp",
     "spottedAt": "2023-03-18",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.744656,
+    "lng": -73.99485,
     "sign": {
       "dates": "Vehicles must be moved by: Wednesday 2/8/23 7:00 PM; second line (partially obscured): \"...Wednesday 2/8/23\"",
       "contact": "Corey 917-364-4367 (partly blurry); 212-627-0088",
@@ -2515,7 +2479,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:11:47.776Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3504",
@@ -2523,9 +2488,8 @@
     "status": "hunch",
     "photo": "/photos/img-3504.webp",
     "spottedAt": "2019-05-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.718675,
+    "lng": -73.995558,
     "sign": {
       "company": "FOREST PRODUCTIONS",
       "dates": "Pink notice: Thursday 5/16/19, 6:00 AM. Yellow notice: Friday 5/17/19, 6:00 AM (end time not clearly legible).",
@@ -2553,7 +2517,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:12:00.669Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3631",
@@ -2561,9 +2526,8 @@
     "status": "decoded",
     "photo": "/photos/img-3631.webp",
     "spottedAt": "2021-02-20",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.750114,
+    "lng": -73.994156,
     "sign": {
       "dates": "Vehicles must be moved by: Monday-2/8/2021. Shoot time: 5:am-11:pm PM. Parking can be held a maximum of 24 hours in advance of date and time indicated below (as spaces become available)",
       "contact": "Location Manager & Cell #: Anthony; Location Dept #: 267-768-7824",
@@ -2590,7 +2554,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:12:10.066Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3648",
@@ -2598,9 +2563,8 @@
     "status": "decoded",
     "photo": "/photos/img-3648.webp",
     "spottedAt": "2021-02-21",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.743739,
+    "lng": -73.988953,
     "sign": {
       "company": "NBC Universal Television (printed on the secondary white sheet below the pink notice)",
       "dates": "Vehicles must be moved by: Sunday 2-21-2021. Shoot day & date: Monday 2-22-2021. Shoot time: 6am-11pm",
@@ -2628,7 +2592,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:12:23.557Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3658",
@@ -2636,9 +2601,8 @@
     "status": "hunch",
     "photo": "/photos/img-3658.webp",
     "spottedAt": "2022-04-29",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649875,
+    "lng": -73.962289,
     "sign": {
       "dates": "Tuesday-5/3/2022, 6:am-11:pm",
       "contact": "Anthony (Location Manager & Cell), 929-515-1098 (Location Dept #)",
@@ -2665,7 +2629,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:12:40.733Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3755",
@@ -2673,9 +2638,8 @@
     "status": "decoded",
     "photo": "/photos/img-3755.webp",
     "spottedAt": "2022-05-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.694553,
+    "lng": -73.990708,
     "sign": {
       "dates": "THURS MAY 5 2022, 6:00 AM; vehicles must be moved by 5pm",
       "contact": "Location Manager & Cell #: BEN; Location Dept #: 718-499-4896",
@@ -2702,7 +2666,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:12:49.592Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3842",
@@ -2710,9 +2675,8 @@
     "status": "decoded",
     "photo": "/photos/img-3842.webp",
     "spottedAt": "2022-05-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.731894,
+    "lng": -73.989944,
     "sign": {
       "dates": "Monday 05/16/22, 6:00AM (vehicles must be moved by this time; parking can be held a maximum of 24 hours in advance of the date & time indicated, as spaces become available)",
       "contact": "KERRIE (Location Manager & cell) 917-671-4847; Location Dept # 917-671-4847",
@@ -2739,7 +2703,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:12:58.300Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-3944",
@@ -2808,9 +2773,8 @@
     "status": "unknown",
     "photo": "/photos/img-4035.webp",
     "spottedAt": "2019-06-22",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.740336,
+    "lng": -73.994614,
     "sign": {
       "dates": "Friday 06/21/2019 10PM (tow if not moved by); Saturday 06/22/2019",
       "contact": "Location Manager Matt (718) 906-3293; Location Dept. (718) 350-7967",
@@ -2837,7 +2801,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:13:50.835Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4102",
@@ -2845,9 +2810,8 @@
     "status": "decoded",
     "photo": "/photos/img-4102.webp",
     "spottedAt": "2017-07-08",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.708264,
+    "lng": -73.941056,
     "sign": {
       "company": "SEARCH PARTY LLC",
       "dates": "Vehicles must be moved by Sun 7/9/17 10pm; Shoot time Mon 7/10/17 6am-11pm",
@@ -2875,7 +2839,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:14:00.749Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4182",
@@ -2883,9 +2848,8 @@
     "status": "decoded",
     "photo": "/photos/img-4182.webp",
     "spottedAt": "2026-06-19",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.756006,
+    "lng": -73.980842,
     "sign": {
       "dates": "Wednesday 6/24/26, 6AM",
       "contact": "Drew 929-600-2843; Location Dept. # 631-662-3807",
@@ -2907,7 +2871,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:14:12.432Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4286",
@@ -2915,9 +2880,8 @@
     "status": "decoded",
     "photo": "/photos/img-4286.webp",
     "spottedAt": "2022-06-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.693589,
+    "lng": -73.992325,
     "sign": {
       "dates": "Monday-6/13/2022; Shoot time 6:am-11:pm; vehicles must be moved by 10:pm (partially cut off)",
       "contact": "Curley (Location Manager), 917-671-5940",
@@ -2944,7 +2908,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:14:20.631Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4327",
@@ -2952,9 +2917,8 @@
     "status": "decoded",
     "photo": "/photos/img-4327.webp",
     "spottedAt": "2022-06-16",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649747,
+    "lng": -73.962228,
     "sign": {
       "dates": "Mon 06/20 & Tues 06/21, Shoot time: 6.00 AM (vehicles must be moved by this time). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager & Cell #: Ryan F 914-269-8204; Location Dept #: 914-269-8204",
@@ -2981,7 +2945,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:14:28.660Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4337",
@@ -2989,9 +2954,8 @@
     "status": "unknown",
     "photo": "/photos/img-4337.webp",
     "spottedAt": "2023-05-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.655783,
+    "lng": -74.006522,
     "sign": {
       "dates": "Vehicles must be moved by 10 PM 5/3. Shoot day & date: Thursday 5/4/2023. Shoot time: 6AM (AM circled/selected).",
       "contact": "Location Manager & Cell: 203-302-8121; Location Dept: 203-302-8121",
@@ -3008,7 +2972,8 @@
       "reasoning": "No source in my searches tied the \"TRILLER\" sign, the 203 location phone number, or the 5/4/2023 NYC shoot to any production. \"TRILLER\" could be a misspelling of \"Thriller\" or a working title, but I couldn't confirm either. I'm recording this as unknown.",
       "sources": [],
       "decodedAt": "2026-11-09T16:14:50.838Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4365",
@@ -3016,9 +2981,8 @@
     "status": "hunch",
     "photo": "/photos/img-4365.webp",
     "spottedAt": "2022-06-18",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.698417,
+    "lng": -73.991303,
     "sign": {
       "dates": "Vehicles must be moved by 10:pm-6/20; Shoot day & date: Tuesday-6/21/2022; Shoot time: 6:am-11:pm",
       "contact": "Location Manager: Joe; Location Dept #: 347-414-8161",
@@ -3045,7 +3009,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:15:07.972Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4415",
@@ -3053,9 +3018,8 @@
     "status": "decoded",
     "photo": "/photos/img-4415.webp",
     "spottedAt": "2022-06-21",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.640525,
+    "lng": -73.969178,
     "sign": {
       "dates": "Shoot day & date: Monday 06/20/2022; Shoot time: 6.00 AM (AM/PM printed on form)",
       "contact": "Ryan F 914-269-8204 (Location Manager & Cell); Location Dept: 914-269-8204",
@@ -3082,7 +3046,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:15:15.974Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4416",
@@ -3090,9 +3055,8 @@
     "status": "decoded",
     "photo": "/photos/img-4416.webp",
     "spottedAt": "2022-06-21",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.646789,
+    "lng": -73.969314,
     "sign": {
       "dates": "Mon 06/20 & Tues 06/21, 6:00 AM",
       "contact": "Ryan F 914-269-8204; Location Dept: 914-269-8204",
@@ -3119,7 +3083,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:15:24.894Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4452",
@@ -3127,9 +3092,8 @@
     "status": "hunch",
     "photo": "/photos/img-4452.webp",
     "spottedAt": "2022-06-25",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.721072,
+    "lng": -73.956336,
     "sign": {
       "dates": "Vehicles must be moved by Mon-6/20/22 3:00PM; Shoot day & date Tues-6/21/2022; Shoot time 5:00 AM",
       "contact": "Location Manager: C.Smith; Location Dept #: 917-300-9074",
@@ -3160,7 +3124,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:15:49.723Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4462",
@@ -3168,9 +3133,8 @@
     "status": "decoded",
     "photo": "/photos/img-4462.webp",
     "spottedAt": "2022-06-25",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.722922,
+    "lng": -73.985786,
     "sign": {
       "dates": "Thursday 6/9 & Friday 6/10, Shoot time 6:00 AM (vehicles must be moved by then; parking can be held max 24 hours in advance)",
       "contact": "Location Manager Matt (929) 561-8998; Location Dept # (929) 561-8998",
@@ -3197,7 +3161,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:16:01.801Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4472",
@@ -3205,9 +3170,8 @@
     "status": "decoded",
     "photo": "/photos/img-4472.webp",
     "spottedAt": "2022-06-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.727294,
+    "lng": -73.986558,
     "sign": {
       "dates": "Thursday 30th June 2022, 6:00 AM (AM circled). Vehicles must be moved by this time. Parking can be held a maximum of 24 hours in advance.",
       "contact": "Location Manager: Chris; Location Dept #: 929-242-9654",
@@ -3233,7 +3197,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:16:16.035Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4482",
@@ -3241,9 +3206,8 @@
     "status": "decoded",
     "photo": "/photos/img-4482.webp",
     "spottedAt": "2022-06-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.693303,
+    "lng": -73.991378,
     "sign": {
       "dates": "Vehicles must be moved by: TUE. 6/28, 5:00 AM (Shoot day & date: TUE. 6/28; Shoot time: 5:00 AM). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager & Cell #: JOE - 914-306-5696; Location Dept #: 929-288-4280",
@@ -3270,7 +3234,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:16:24.480Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4514",
@@ -3278,9 +3243,8 @@
     "status": "decoded",
     "photo": "/photos/img-4514.webp",
     "spottedAt": "2026-07-01",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.717922,
+    "lng": -73.992867,
     "sign": {
       "company": "\"...PRODUCTIONS LLC\" (partially visible on the attached paper above; the first part of the name is cut off)",
       "dates": "Wednesday 7/1, 6AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated. For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before.",
@@ -3312,7 +3276,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:16:35.026Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4531",
@@ -3344,9 +3309,8 @@
     "status": "decoded",
     "photo": "/photos/img-4626.webp",
     "spottedAt": "2022-07-09",
-    "lat": 40.7378,
-    "lng": -73.9855,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.737675,
+    "lng": -73.987939,
     "sign": {
       "company": "Universal Television, LLC/NBC Universal (per the white notice at the bottom)",
       "dates": "Vehicles must be moved by: Mon-7/11/2022 3:00 PM. Shoot day & date: Tues-7/12/2022. Shoot time: 5:00 AM.",
@@ -3381,14 +3345,8 @@
       ],
       "decodedAt": "2026-11-09T16:17:08.363Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "Not fully legible. The orange signs have no street addresses. The lower white notice lists partial blocks, including 19th St, Irving Pl, E 20th St, Park Ave South, Gramercy Park W, and E 23rd St, but the text is cut off and blurry. | Not fully legible. The orange signs have no street addresses. The lower white notice lists partial blocks, including 19th St, Irving Pl, E 20th St, Park Ave South, Gramercy Park W, and E 23rd St, but the text is cut off and blurry.",
-      "neighborhood": "Gramercy",
-      "borough": "Manhattan",
-      "confidence": 0.5
-    },
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "gps": "exif"
   },
   {
     "id": "img-4658",
@@ -3396,9 +3354,8 @@
     "status": "unknown",
     "photo": "/photos/img-4658.webp",
     "spottedAt": "2026-07-04",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.720589,
+    "lng": -74.001739,
     "sign": {
       "dates": "Orange sign: No parking from MON. 7/6, 10:00AM; shoot day & date TUESDAY 7/7, shoot time 6:00AM (AM checked). Yellow sign: No parking from WED. 7/8, 10:00PM; shoot day & date THURSDAY 7/9, shoot time 6:00AM (AM checked).",
       "contact": "Location manager: TOM; Location Dept #: 929-609-1897",
@@ -3417,7 +3374,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:17:24.672Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4714",
@@ -3425,9 +3383,8 @@
     "status": "decoded",
     "photo": "/photos/img-4714.webp",
     "spottedAt": "2026-07-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.72345,
+    "lng": -73.99295,
     "sign": {
       "dates": "Two notices. Upper: Shoot day & date TUESDAY 6/30, shoot time 6AM (AM checked). Lower: Shoot day & date WEDNESDAY 7/1, shoot time 6AM (AM checked). Printed rule: parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available). For shoots starting between 6AM–11AM, move vehicles by 10PM the night before.",
       "contact": "Location manager & cell: TOM 347.669.8809; Location dept #: 347.669.8809",
@@ -3458,7 +3415,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:17:41.032Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4715",
@@ -3466,9 +3424,8 @@
     "status": "decoded",
     "photo": "/photos/img-4715.webp",
     "spottedAt": "2026-07-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.723461,
+    "lng": -73.993019,
     "sign": {
       "dates": "Two notices: TUESDAY 6/30, shoot time 6AM (AM checked); WEDNESDAY 7/1, shoot time 6AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated below (as spaces become available). For shoots starting between 6AM-11AM, please move vehicles by 10PM the night before.",
       "contact": "Location Manager & Cell: TOM 347.669.8809; Location Dept #: 347.669.8809",
@@ -3499,7 +3456,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:17:50.838Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4716",
@@ -3507,9 +3465,8 @@
     "status": "decoded",
     "photo": "/photos/img-4716.webp",
     "spottedAt": "2026-07-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719728,
+    "lng": -73.992631,
     "sign": {
       "dates": "THURSDAY 7/9/26, 6:00 AM. For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before. Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager: RYAN F, 347.455.1780",
@@ -3540,7 +3497,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:18:01.104Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4731",
@@ -3548,9 +3506,8 @@
     "status": "decoded",
     "photo": "/photos/img-4731.webp",
     "spottedAt": "2026-07-07",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649997,
+    "lng": -73.962258,
     "sign": {
       "dates": "Vehicles must be moved by: 06/29 5:00P. Shoot day & date: Tuesday, June 30, 2026 (year partly obscured by glare). Shoot time: 07:00 AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager: Ryan F (cell number partly obscured, reads 347-455-1?0). Location Dept #: 347-455-1780",
@@ -3581,7 +3538,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:18:12.773Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4784",
@@ -3589,9 +3547,8 @@
     "status": "hunch",
     "photo": "/photos/img-4784.webp",
     "spottedAt": "2021-05-03",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649719,
+    "lng": -73.962411,
     "sign": {
       "dates": "Vehicles must be moved by: FRI. 5/7, 5AM (AM/PM). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager: OLIVIA, 646-504-4249",
@@ -3614,7 +3571,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:18:22.974Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4852",
@@ -3647,9 +3605,8 @@
     "status": "decoded",
     "photo": "/photos/img-4858.webp",
     "spottedAt": "2026-07-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.744339,
+    "lng": -73.988219,
     "sign": {
       "dates": "Tuesday 7/14/2026, shoot time 6:00 AM (AM box checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available). For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before.",
       "contact": "Olaf G 201-564-0737 (Location Manager & Cell); Location Dept #: 201-564-0737",
@@ -3676,7 +3633,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:18:47.383Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4943",
@@ -3684,9 +3642,8 @@
     "status": "unknown",
     "photo": "/photos/img-4943.webp",
     "spottedAt": "2026-07-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.720978,
+    "lng": -73.997994,
     "sign": {
       "dates": "MON. 7/13, 6AM (AM checked). Vehicles to be moved by 10PM the night before for shoots starting 6AM-11AM; parking can be held max 24 hours in advance.",
       "contact": "Location Manager: JEREMY 929-314-4471; Location Dept #: 929-314-4471",
@@ -3713,7 +3670,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:19:02.929Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-4977",
@@ -3796,9 +3754,8 @@
     "status": "hunch",
     "photo": "/photos/img-5181.webp",
     "spottedAt": "2019-09-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.690119,
+    "lng": -73.983331,
     "sign": {
       "dates": "Vehicles must be moved by: WED 9/4/19 8PM. Shoot time: Thurs. 9/5/19 6A-12Midnight",
       "contact": "Location Manager & Cell #: RON 631-602-0973; Location Dept #: 631-602-0973",
@@ -3821,7 +3778,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:19:35.283Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5195",
@@ -3829,9 +3787,8 @@
     "status": "decoded",
     "photo": "/photos/img-5195.webp",
     "spottedAt": "2021-06-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.727153,
+    "lng": -73.988067,
     "sign": {
       "dates": "Shoot day & date: Friday June 4th 2021; Shoot time: Friday 6:00 AM (AM circled)",
       "contact": "Location Manager: Matt; Location Dept #: 1-929-367-7354",
@@ -3858,7 +3815,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:19:44.119Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5352",
@@ -3866,9 +3824,8 @@
     "status": "decoded",
     "photo": "/photos/img-5352.webp",
     "spottedAt": "2019-09-14",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.733497,
+    "lng": -74.002992,
     "sign": {
       "dates": "Shoot day: Tuesday 9/17/2019. Vehicles towed if not moved by Monday 9/16/2019, 10 PM",
       "contact": "Location Manager: Matt 347.670.0946; Location Dept: 347.236.3170",
@@ -3895,7 +3852,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:19:55.380Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5361",
@@ -3903,9 +3861,8 @@
     "status": "decoded",
     "photo": "/photos/img-5361.webp",
     "spottedAt": "2017-09-07",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.675892,
+    "lng": -73.974578,
     "sign": {
       "dates": "Vehicles towed if not moved by Wednesday 9/6/2017, 10PM. Shoot day: Thursday 9/7/2017",
       "contact": "Location Manager Drew 347-762-3498; Location Dept. 347-955-0358",
@@ -3936,7 +3893,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:20:09.344Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5407",
@@ -4054,9 +4012,8 @@
     "status": "decoded",
     "photo": "/photos/img-5514.webp",
     "spottedAt": "2019-09-24",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.707581,
+    "lng": -74.008561,
     "sign": {
       "dates": "Vehicles must be moved by: Friday 9/27, 5AM",
       "contact": "Location Manager & Cell: 929-343-6373; Location Dept: 929-343-6373",
@@ -4083,7 +4040,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:20:55.300Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5699",
@@ -4091,9 +4049,8 @@
     "status": "unknown",
     "photo": "/photos/img-5699.webp",
     "spottedAt": "2019-10-07",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.728733,
+    "lng": -73.987953,
     "sign": {
       "dates": "No parking / tow time: Monday October 7, 2019, 10:00 PM. Shoot date: Tuesday October 8, 2019.",
       "contact": "C. Hopson (location manager); 917-740-6315 (Location Dept. #)",
@@ -4106,7 +4063,8 @@
       "reasoning": "No source I found ties a \"?arling\" sign, the location manager C. Hopson or the 917-740-6315 location number to any production. Searches only returned unrelated titles, such as the 2015 film Darling. The Starling shot in NYC from Aug 2 to Sep 19, 2019, which is before the Oct 8 date on the sign, so it doesn't fit.",
       "sources": [],
       "decodedAt": "2026-11-09T16:21:18.305Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5840",
@@ -4114,9 +4072,8 @@
     "status": "decoded",
     "photo": "/photos/img-5840.webp",
     "spottedAt": "2021-07-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.759603,
+    "lng": -73.973442,
     "sign": {
       "dates": "Thursday 07/08/21, shoot time 6:00 AM. Parking can be held a maximum of 24 hours in advance of the date and time as spaces become available.",
       "contact": "Matt (347) 266-5377 (Location Manager & Cell); Location Dept #: (347) 266-5377",
@@ -4143,7 +4100,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:21:27.687Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-5841",
@@ -4151,9 +4109,8 @@
     "status": "decoded",
     "photo": "/photos/img-5841.webp",
     "spottedAt": "2024-12-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.752083,
+    "lng": -73.974158,
     "sign": {
       "dates": "Green sign: Vehicles must be moved by 12/4/24 10PM; Shoot day & date: Thursday 12/5/2024; Shoot time: 7AM (AM circled). Orange sign: Vehicles must be moved by 12/8/24 10PM; Shoot day & date: Monday 12/9/2024; Shoot time: 7AM (AM circled).",
       "contact": "Location Manager & Cell #: ROB H. 917-727-2051; Location Dept #: 917-727-2051",
@@ -4180,7 +4137,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:21:36.792Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6072",
@@ -4188,9 +4146,8 @@
     "status": "decoded",
     "photo": "/photos/img-6072.webp",
     "spottedAt": "2026-08-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.655342,
+    "lng": -73.962075,
     "sign": {
       "dates": "No parking / tow by Wednesday 08/19/26 at 10PM; shoot day Thursday 08/20/26. Parking can be held a maximum of 24 hours in advance of the shoot date & time (as spaces become available).",
       "contact": "D. Campbell, Location Manager; Location Dept. # 646-504-1752",
@@ -4217,7 +4174,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:21:48.352Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6082",
@@ -4225,9 +4183,8 @@
     "status": "decoded",
     "photo": "/photos/img-6082.webp",
     "spottedAt": "2026-08-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.666214,
+    "lng": -73.964792,
     "sign": {
       "dates": "Shoot day & date: Friday 08/14/26 (year partly blurry); Shoot time: 6:00 AM; Vehicles must be moved by: Thursday 08/13/26 (partly illegible), time illegible (possibly 2:00 PM)",
       "contact": "D. Campbell, 646-504-1732 (digits partly blurry)",
@@ -4254,7 +4211,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:21:57.597Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6085",
@@ -4262,9 +4220,8 @@
     "status": "hunch",
     "photo": "/photos/img-6085.webp",
     "spottedAt": "2026-08-11",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.681725,
+    "lng": -73.964622,
     "sign": {
       "dates": "AUGUST 10-12 2026, shoot time 6AM (AM box checked)",
       "contact": "Location Manager: JOHN PEREZ; Location Dept #: 212-203-8938",
@@ -4287,7 +4244,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:22:11.223Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6096",
@@ -4295,9 +4253,8 @@
     "status": "hunch",
     "photo": "/photos/img-6096.webp",
     "spottedAt": "2021-08-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.644783,
+    "lng": -73.967011,
     "sign": {
       "dates": "Wed. 8/4/2021, 5:am-11:pm",
       "contact": "Location Manager: Curley; Location Dept #: 914-774-3499",
@@ -4324,7 +4281,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:22:27.823Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6105",
@@ -4332,9 +4290,8 @@
     "status": "hunch",
     "photo": "/photos/img-6105.webp",
     "spottedAt": "2021-08-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.646367,
+    "lng": -73.967261,
     "sign": {
       "legibility": 0.95
     },
@@ -4358,7 +4315,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:22:44.092Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6222",
@@ -4407,9 +4365,8 @@
     "status": "decoded",
     "photo": "/photos/img-6261.webp",
     "spottedAt": "2018-01-20",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.716667,
+    "lng": -73.998642,
     "sign": {
       "dates": "Monday 1/22/2018, 3 AM (vehicles must be moved by this time; parking can be held a maximum of 24 hours in advance)",
       "legibility": 0.95
@@ -4438,7 +4395,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:23:14.964Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6265",
@@ -4446,9 +4404,8 @@
     "status": "decoded",
     "photo": "/photos/img-6265.webp",
     "spottedAt": "2026-08-18",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719283,
+    "lng": -73.961456,
     "sign": {
       "company": "DOX EAST Production LLC",
       "dates": "Day & Date (no parking by): Tuesday 8/18/2026, Time: 6AM. Shoot Day(s) & Date(s): Tuesday 8/18/2026",
@@ -4476,7 +4433,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:23:23.727Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6422",
@@ -4484,9 +4442,8 @@
     "status": "unknown",
     "photo": "/photos/img-6422.webp",
     "spottedAt": "2021-08-27",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.718247,
+    "lng": -73.993989,
     "sign": {
       "dates": "Vehicles must be moved by 10PM 8/29/21. Shoot day & date: Monday 8/30/2021, shoot time 6AM",
       "contact": "Kristin (Location Manager) 347.619.3469; Location Dept # 347.619.3469",
@@ -4499,7 +4456,8 @@
       "reasoning": "Searches for \"LGA\" as a working title, plus the location manager name and shoot dates, returned nothing tying the sign to a specific production. \"LGA\" is the LaGuardia Airport code, so the shoot may involve an airport scene, but that is only a guess.",
       "sources": [],
       "decodedAt": "2026-11-09T16:23:50.742Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6423",
@@ -4507,9 +4465,8 @@
     "status": "unknown",
     "photo": "/photos/img-6423.webp",
     "spottedAt": "2021-08-27",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.718247,
+    "lng": -73.993989,
     "sign": {
       "dates": "Vehicles must be moved by 10PM 8/29/21. Shoot day & date: Monday 8/30/2021. Shoot time: 6AM",
       "contact": "Kristin 347.619.3469 (Location Manager & Cell); Location Dept #: 347.619.3469",
@@ -4523,7 +4480,8 @@
       "reasoning": "Searches found nothing linking the title \"LGA\" to a specific production. \"LGA\" is the LaGuardia Airport code, so it may be a working title for an airport-related shoot, but no source confirms this.",
       "sources": [],
       "decodedAt": "2026-11-09T16:24:04.784Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6470",
@@ -4531,9 +4489,8 @@
     "status": "decoded",
     "photo": "/photos/img-6470.webp",
     "spottedAt": "2018-02-10",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.717903,
+    "lng": -73.999772,
     "sign": {
       "dates": "No parking / vehicles towed if not moved by Sunday 2/11/2018, 10 PM; shoot day: Monday 2/12/2018",
       "contact": "Location Manager Shane, cell 929.364.5497; Location Dept. 347.987.3624; relocated vehicles: call 311",
@@ -4563,7 +4520,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:24:16.138Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6715",
@@ -4571,9 +4529,8 @@
     "status": "decoded",
     "photo": "/photos/img-6715.webp",
     "spottedAt": "2022-08-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.790908,
+    "lng": -73.9496,
     "sign": {
       "dates": "FRI. 08/05/22, 5:00AM TO 11:59PM",
       "contact": "MIA. 929-399-3521",
@@ -4600,7 +4557,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:24:23.882Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6762",
@@ -4608,9 +4566,8 @@
     "status": "unknown",
     "photo": "/photos/img-6762.webp",
     "spottedAt": "2025-02-15",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.649958,
+    "lng": -73.962119,
     "sign": {
       "dates": "Shoot day & date: WEDNESDAY 2/19; Shoot time: 6AM-10PM (AM checked). Parking can be held a maximum of 24 hours in advance (as spaces become available). For shoots starting between 6AM-11AM, move vehicles by 10PM the night before: TUE. 2/18 10:00PM",
       "contact": "Katie (Location Manager) (646) 444-4567",
@@ -4624,7 +4581,8 @@
       "reasoning": "The sign's project name is just \"FEBRUARY 2025\", which looks like a generic placeholder (probably a commercial or small shoot). The searches returned no production, LLC or coverage linked to this sign, the contact, or the 2/19/2025 date.",
       "sources": [],
       "decodedAt": "2026-11-09T16:24:37.414Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6865",
@@ -4632,9 +4590,8 @@
     "status": "unknown",
     "photo": "/photos/img-6865.webp",
     "spottedAt": "2018-03-17",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.738289,
+    "lng": -73.989525,
     "sign": {
       "company": "Everyman production",
       "dates": "No parking / vehicles towed if not moved by: Saturday 3-24-18, 10:00 PM (PM circled). Shoot day(s) & date(s): Sunday 3-25-18",
@@ -4657,7 +4614,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:25:00.087Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6930",
@@ -4702,9 +4660,8 @@
     "status": "unknown",
     "photo": "/photos/img-6978.webp",
     "spottedAt": "2023-09-09",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.748781,
+    "lng": -73.995256,
     "sign": {
       "dates": "Mon. 9/11-thru-Thurs. 9/14, 5:am-9pm",
       "contact": "Location Manager: Courtine; Location Dept #: 347-755-8788",
@@ -4727,7 +4684,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:25:39.510Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-6981",
@@ -4735,9 +4693,8 @@
     "status": "decoded",
     "photo": "/photos/img-6981.webp",
     "spottedAt": "2025-02-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.738333,
+    "lng": -73.989997,
     "sign": {
       "dates": "Vehicles must be moved by WED 2/26 @3pm; Shoot day & date: THURSDAY 2/27/25; Shoot time: 6AM (AM checked)",
       "contact": "John, 347-996-8207",
@@ -4764,7 +4721,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:25:49.101Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7054",
@@ -4810,9 +4768,8 @@
     "status": "hunch",
     "photo": "/photos/img-7089.webp",
     "spottedAt": "2019-11-06",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.724169,
+    "lng": -74.000053,
     "sign": {
       "dates": "No parking/tow-away: vehicles towed to nearest legal spot if not moved by WED. 11/6, 10:00PM. Shoot day(s) & date(s): THUR. 11/7",
       "contact": "Location Manager: BRENDAN; Location Dept. #: 929.288.4110",
@@ -4839,7 +4796,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:26:12.933Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7090",
@@ -4930,9 +4888,8 @@
     "status": "decoded",
     "photo": "/photos/img-7377.webp",
     "spottedAt": "2019-11-23",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.693017,
+    "lng": -73.990906,
     "sign": {
       "dates": "Vehicles moved by: Sunday 11/24/2019 (printed \"Sunday11/242019\"), Time: 4PM. Shoot day(s) & date: Monday 11/25/2019. Shoot time: 7AM",
       "contact": "Justin.K, (631)-213-1439",
@@ -4959,7 +4916,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:26:50.776Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7455",
@@ -4967,9 +4925,8 @@
     "status": "decoded",
     "photo": "/photos/img-7455.webp",
     "spottedAt": "2016-06-28",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.741878,
+    "lng": -73.982444,
     "sign": {
       "dates": "Tow-by: Friday 7/1/2016, 10 PM. Shoot day(s) & date(s): Saturday 7/2/2016",
       "contact": "Location Manager & Cell #: 646.493.6713; Location Dept. #: 646.493.6713",
@@ -4996,7 +4953,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:26:59.995Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7456",
@@ -5004,9 +4962,8 @@
     "status": "decoded",
     "photo": "/photos/img-7456.webp",
     "spottedAt": "2016-06-28",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.741872,
+    "lng": -73.982492,
     "sign": {
       "dates": "No parking / tow deadline: Friday 7/1/2016, 10 PM. Shoot day(s) & date(s): Saturday 7/2/2016",
       "contact": "Location Manager & Cell #: 646.493.6713; Location Dept. #: 646.493.6713",
@@ -5033,7 +4990,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:27:08.182Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7457",
@@ -5078,9 +5036,8 @@
     "status": "decoded",
     "photo": "/photos/img-7534.webp",
     "spottedAt": "2018-04-30",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.759889,
+    "lng": -73.989267,
     "sign": {
       "dates": "MON-04/30 Thru. WED-05/(cut off, remainder unreadable); 6:AM-11:PM",
       "contact": "Jose 914-774-3499",
@@ -5111,7 +5068,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:27:26.824Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7581",
@@ -5119,9 +5077,9 @@
     "status": "unknown",
     "photo": "/photos/img-7581.webp",
     "spottedAt": "2018-05-03",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng."
+    "lat": 40.732492,
+    "lng": -74.000206,
+    "gps": "exif"
   },
   {
     "id": "img-7619",
@@ -5129,9 +5087,8 @@
     "status": "decoded",
     "photo": "/photos/img-7619.webp",
     "spottedAt": "2016-07-08",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.743953,
+    "lng": -73.983847,
     "sign": {
       "dates": "Vehicles towed if not moved by: Thursday 7/7/2016, 10 PM. Shoot day(s) & date(s): Friday 7/8/2016",
       "contact": "646.493.6713",
@@ -5162,7 +5119,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:27:47.027Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7662",
@@ -5170,9 +5128,8 @@
     "status": "unknown",
     "photo": "/photos/img-7662.webp",
     "spottedAt": "2023-11-02",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.705517,
+    "lng": -74.008056,
     "sign": {
       "dates": "Shoot day & date: SUN 11/5/23; shoot time: 6AM; vehicles must be moved by 10AM; handwritten note \"*SAT 11/4\" next to the 24-hour advance parking line",
       "contact": "Paul (Location Manager), 347 680 0078",
@@ -5186,7 +5143,8 @@
       "reasoning": "No search result tied \"Project Green\" to any production. Results were unrelated, such as Project Greenlight and NYC Film Green. \"Project Green\" looks like a working title, but I couldn't identify the real production.",
       "sources": [],
       "decodedAt": "2026-11-09T16:28:01.752Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7736",
@@ -5194,9 +5152,8 @@
     "status": "unknown",
     "photo": "/photos/img-7736.webp",
     "spottedAt": "2026-10-08",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.724444,
+    "lng": -73.996528,
     "sign": {
       "dates": "Shoot day & date: THURSDAY 10/8/26. Shoot time: 6AM (AM box checked). Vehicles must be moved by: WED @ 3p (right edge cut off, so the rest is unreadable).",
       "contact": "Matthew (location manager line); 347-996-8207 (handwritten on the \"...ATION DEPT #\" line)",
@@ -5223,7 +5180,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:28:15.776Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7803",
@@ -5231,9 +5189,8 @@
     "status": "decoded",
     "photo": "/photos/img-7803.webp",
     "spottedAt": "2025-04-06",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.766156,
+    "lng": -73.979569,
     "sign": {
       "dates": "Shoot Day & Date: Monday 4/7/25; Shoot Time: 6:00AM (AM checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated. For shoots starting between 6AM - 11AM, please move vehicles by 10PM the night before.",
       "contact": "Location Manager: Olaf G, 201-564-0737; Production Dept #: 201-564-0737",
@@ -5260,7 +5217,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:28:23.908Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7854",
@@ -5268,9 +5226,8 @@
     "status": "decoded",
     "photo": "/photos/img-7854.webp",
     "spottedAt": "2025-04-12",
-    "lat": 40.7189,
-    "lng": -73.997,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719822,
+    "lng": -73.996086,
     "sign": {
       "dates": "No parking effective Tuesday 15th April 2025, 10PM; shoot day(s) & date(s): Wednesday 16th April 2025. Parking can be held a maximum of 24 hours in advance of the shoot date & time indicated.",
       "location": "Attached white notice appears to list blocks of Mulberry St (between Grand St & Broome St, and others), Grand St, Broome St, Bowery, and Mott St, with traffic control on Mulberry St at Grand St. The small print is too blurry to read exactly, so I'm not transcribing the full list.",
@@ -5300,14 +5257,8 @@
       ],
       "decodedAt": "2026-11-09T16:28:37.921Z"
     },
-    "geo": {
-      "source": "claude",
-      "query": "Attached white notice appears to list blocks of Mulberry St (between Grand St & Broome St, and others), Grand St, Broome St, Bowery, and Mott St, with traffic control on Mulberry St at Grand St. The small print is too blurry to read exactly, so I'm not transcribing the full list. | Attached white notice appears to list blocks of Mulberry St (between Grand St & Broome St, and others), Grand St, Broome St, Bowery, and Mott St, with traffic control on Mulberry St at Grand St. The small print is too blurry to read exactly, so I'm not transcribing the full list.",
-      "neighborhood": "Little Italy / Chinatown",
-      "borough": "Manhattan",
-      "confidence": 0.8
-    },
-    "borough": "Manhattan"
+    "borough": "Manhattan",
+    "gps": "exif"
   },
   {
     "id": "img-7855",
@@ -5315,9 +5266,8 @@
     "status": "decoded",
     "photo": "/photos/img-7855.webp",
     "spottedAt": "2025-04-12",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719842,
+    "lng": -73.996072,
     "sign": {
       "company": "King Street Productions, Inc. (from the small print on the white notice, which is only partly legible)",
       "dates": "Parking restriction starts Tuesday 15th April 2025, 10PM. Shoot day: Wednesday 16th April 2025. The white notice says to move vehicles by 12AM on Wednesday, April 16th.",
@@ -5348,7 +5298,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:28:54.461Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-7929",
@@ -5356,9 +5307,8 @@
     "status": "decoded",
     "photo": "/photos/img-7929.webp",
     "spottedAt": "2026-10-20",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.757378,
+    "lng": -73.976111,
     "sign": {
       "dates": "TUES&WED OCT 27&28 2026, shoot time 6:00 AM. Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "Location Manager: Damon; Location Dept #: 917-671-4844",
@@ -5385,7 +5335,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:29:05.552Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8003",
@@ -5393,9 +5344,8 @@
     "status": "hunch",
     "photo": "/photos/img-8003.webp",
     "spottedAt": "2018-05-20",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719036,
+    "lng": -74.003386,
     "sign": {
       "dates": "Vehicles must be moved by Sun. May 20th @ 7 PM; Shoot day & date: Mon. May 21st, 2018; Shoot time: 5AM - 11PM",
       "contact": "Giovanni (Location Manager) - 646-427-6570; Location Dept: 646-427-6570",
@@ -5418,7 +5368,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:29:17.508Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8004",
@@ -5426,9 +5377,8 @@
     "status": "decoded",
     "photo": "/photos/img-8004.webp",
     "spottedAt": "2018-05-20",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.717664,
+    "lng": -74.001367,
     "sign": {
       "dates": "THUR-05/17 Thru FRI-05/18/18, 6:00am-11:00pm. Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available). Vehicles must be moved by the shoot date/time.",
       "contact": "Location Manager: Jose; Location Dept #: 914-774-3499",
@@ -5455,7 +5405,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:29:27.352Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8060",
@@ -5463,9 +5414,8 @@
     "status": "unknown",
     "photo": "/photos/img-8060.webp",
     "spottedAt": "2023-11-25",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.738786,
+    "lng": -73.989861,
     "sign": {
       "dates": "11/13, 11/14 & 11/15 (additional handwritten text after this is illegible); Shoot time: 6:00 AM (AM box checked)",
       "contact": "Location Manager: Cate M, (631) 743-0141",
@@ -5492,7 +5442,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:29:42.777Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8112",
@@ -5500,9 +5451,8 @@
     "status": "decoded",
     "photo": "/photos/img-8112.webp",
     "spottedAt": "2025-04-27",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719575,
+    "lng": -73.991081,
     "sign": {
       "dates": "Vehicles must be moved by: Monday 4/28 10PM. Shoot day & date: Tuesday 4/29. Shoot time: 5AM",
       "contact": "Location Manager & Cell #: 646-469-4920; Location Dept #: 646-469-4920",
@@ -5529,7 +5479,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:29:51.261Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8267",
@@ -5574,9 +5525,8 @@
     "status": "decoded",
     "photo": "/photos/img-8276.webp",
     "spottedAt": "2023-12-13",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.721467,
+    "lng": -73.958253,
     "sign": {
       "dates": "Vehicles must be moved by: Monday 12-18-2023, 10pm. Shoot day & date: Tuesday 12-19-2023. Shoot time: 6AM (AM circled)",
       "contact": "Location Manager & Cell #: Mark(?) 929-772-6744 (name partially obscured by glare/tape). Location Dept #: 631-662-3?07 (middle digits partly obscured)",
@@ -5599,7 +5549,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:30:09.139Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8362",
@@ -5607,9 +5558,8 @@
     "status": "unknown",
     "photo": "/photos/img-8362.webp",
     "spottedAt": "2018-05-26",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.689656,
+    "lng": -73.974311,
     "sign": {
       "legibility": 0.85
     },
@@ -5629,7 +5579,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:30:38.220Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8379",
@@ -5637,9 +5588,8 @@
     "status": "unknown",
     "photo": "/photos/img-8379.webp",
     "spottedAt": "2018-06-01",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.754581,
+    "lng": -73.981231,
     "sign": {
       "company": "JOURNAL PROD",
       "dates": "Vehicles should be moved by: Saturday 6/2/2018, 6 PM. Shoot days & dates: SUN 6/3 - WED 6/6/2018",
@@ -5656,7 +5606,8 @@
       "reasoning": "Searches for \"Journal Prod\", the location manager's name, and NYC filming around June 3-6, 2018 turned up nothing tying this sign to a specific production. Any title would be a guess.",
       "sources": [],
       "decodedAt": "2026-11-09T16:30:53.987Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8397",
@@ -5720,9 +5671,8 @@
     "status": "decoded",
     "photo": "/photos/img-8604.webp",
     "spottedAt": "2024-01-07",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.737883,
+    "lng": -73.988486,
     "sign": {
       "dates": "Thursday 11th January 2024, Shoot time 6:00 (AM/PM; AM appears circled). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available). Vehicles must be moved by the shoot time.",
       "contact": "Michele B. (Location Manager); Location Dept #: 1-929-559-2383",
@@ -5753,7 +5703,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:31:19.173Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8767",
@@ -5761,9 +5712,8 @@
     "status": "decoded",
     "photo": "/photos/img-8767.webp",
     "spottedAt": "2024-01-31",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719381,
+    "lng": -74.000297,
     "sign": {
       "dates": "MONDAY 2/05/2024, 5:00am - 11:59 pm",
       "contact": "ELIZABETH 917-409-0033",
@@ -5794,7 +5744,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:31:32.363Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8842",
@@ -5802,9 +5753,8 @@
     "status": "unknown",
     "photo": "/photos/img-8842.webp",
     "spottedAt": "2018-06-17",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.723356,
+    "lng": -73.985533,
     "sign": {
       "company": "PENNY LANE PRODUCTIONS LLC",
       "dates": "No parking / tow time: Tuesday 6/19/18, 6:00 AM. Shoot day(s) & date(s): Tuesday 6/19/18",
@@ -5832,7 +5782,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:32:03.838Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8864",
@@ -5840,9 +5791,8 @@
     "status": "decoded",
     "photo": "/photos/img-8864.webp",
     "spottedAt": "2016-08-30",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.671794,
+    "lng": -73.963372,
     "sign": {
       "company": "Elementary-eye productions, inc",
       "dates": "No parking / vehicles towed if not moved by Mon 8/29/16, 10:00 (AM/PM box unclear); shoot day: Tue 8/30/16",
@@ -5869,7 +5819,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:32:20.726Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-8882",
@@ -5952,9 +5903,8 @@
     "status": "unknown",
     "photo": "/photos/img-8929.webp",
     "spottedAt": "2016-09-03",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.721539,
+    "lng": -73.997383,
     "sign": {
       "dates": "Vehicles to be moved by 6 AM, Sunday 9/4/16. Shoot day/date: Sunday 9/4/16",
       "contact": "Location Manager: Tommy; Location Dept #: (718) 734-8856; Cell: (718) 734-8856",
@@ -5967,7 +5917,8 @@
       "reasoning": "Searches turned up nothing that ties a production titled \"ABS\" to the 9/4/16 NYC shoot. The only \"ABS\" hits were an unrelated 2018 video and TV series, and an American Bladesmith Society mention. I can't identify the production.",
       "sources": [],
       "decodedAt": "2026-11-09T16:33:07.862Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9031",
@@ -5975,9 +5926,8 @@
     "status": "hunch",
     "photo": "/photos/img-9031.webp",
     "spottedAt": "2020-03-09",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.761128,
+    "lng": -73.990181,
     "sign": {
       "dates": "Vehicles must be moved by: Tuesday 03/10/2020, 6:00 AM (AM box checked). Parking can be held a maximum of 24 hours in advance of the date & time indicated (as spaces become available).",
       "contact": "T South (914) 297-7090; Location Dept: (914) 297-7090",
@@ -6004,7 +5954,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:33:24.068Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9154",
@@ -6012,9 +5963,8 @@
     "status": "decoded",
     "photo": "/photos/img-9154.webp",
     "spottedAt": "2016-09-14",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.707703,
+    "lng": -74.008644,
     "sign": {
       "company": "POS PROD",
       "dates": "No parking / tow after 10 PM Thursday 9/15/2016; shoot day Friday 9/16/2016",
@@ -6040,7 +5990,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:33:35.971Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9241",
@@ -6048,15 +5999,15 @@
     "status": "unknown",
     "photo": "/photos/img-9241.webp",
     "spottedAt": "2018-07-14",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.687325,
+    "lng": -73.981536,
     "sign": {
       "dates": "No Parking from Monday 7/16/20[year partly hidden], 10 PM; shoot day(s): [partly hidden] 7/17/2018",
       "contact": "Location Dept. # 347.955.0287",
       "other": "NYPD logo; NO PARKING - vehicles will be towed to the nearest legal spot; The City of New York Mayor's Office of Media and Entertainment, Office of Film, Theatre and Broadcasting. Location manager line partly obscured (appears to include 347.955.0287). Project name line obscured by glare.",
       "legibility": 0.1
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9262",
@@ -6064,9 +6015,8 @@
     "status": "unknown",
     "photo": "/photos/img-9262.webp",
     "spottedAt": "2018-07-15",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.702264,
+    "lng": -73.987372,
     "sign": {
       "dates": "MONDAY 7/16/2018, 6AM (vehicles must be moved by; parking can be held a maximum of 24 hours in advance)",
       "contact": "Location Manager: KRISTEN, 412.427.2954; Location Dept #: 412.427.2954",
@@ -6088,7 +6038,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:34:06.666Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9292",
@@ -6096,9 +6047,8 @@
     "status": "decoded",
     "photo": "/photos/img-9292.webp",
     "spottedAt": "2024-02-17",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.648828,
+    "lng": -73.964731,
     "sign": {
       "dates": "Vehicles must be moved by: MON FEB 19th @ 5PM. Shoot date: TUESDAY 02/20 TO FRI DAY 02/23. Shoot time: 7AM-11PM",
       "contact": "David (347) 762-4009",
@@ -6129,7 +6079,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:34:17.009Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9322",
@@ -6137,9 +6088,8 @@
     "status": "decoded",
     "photo": "/photos/img-9322.webp",
     "spottedAt": "2016-09-21",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.676936,
+    "lng": -73.972733,
     "sign": {
       "company": "POS PROD",
       "dates": "No parking / vehicles towed if not moved by: Thursday 9/15/2016, 10 PM. Shoot day(s) & date(s): Friday 9/16/2016",
@@ -6167,7 +6117,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:34:25.655Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9323",
@@ -6175,9 +6126,8 @@
     "status": "decoded",
     "photo": "/photos/img-9323.webp",
     "spottedAt": "2016-09-21",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.676936,
+    "lng": -73.972733,
     "sign": {
       "company": "POS PROD",
       "dates": "No parking / vehicles towed if not moved by: Thursday 9/15/2016, 10 PM. Shoot day(s) & date(s): Friday 9/16/2016",
@@ -6205,7 +6155,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:34:34.205Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9354",
@@ -6213,9 +6164,8 @@
     "status": "decoded",
     "photo": "/photos/img-9354.webp",
     "spottedAt": "2016-09-24",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.713067,
+    "lng": -73.949189,
     "sign": {
       "dates": "Vehicles must be moved by: Tuesday 9/27/16, 4:00 AM (AM circled). Parking can be held a maximum of 24 hours in advance of the date & time indicated.",
       "contact": "Katt 304-747-0151",
@@ -6242,7 +6192,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:34:43.988Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9424",
@@ -6250,9 +6201,8 @@
     "status": "decoded",
     "photo": "/photos/img-9424.webp",
     "spottedAt": "2024-02-25",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.719703,
+    "lng": -73.999428,
     "sign": {
       "dates": "Day & Date: Wednesday, February 28, 2024, Time: 6AM. Shoot Day(s) & Date(s): Wednesday, February 28, 2024",
       "contact": "Location Manager: Ryan F, 929.486.1529",
@@ -6283,7 +6233,8 @@
         }
       ],
       "decodedAt": "2026-11-09T16:34:53.715Z"
-    }
+    },
+    "gps": "exif"
   },
   {
     "id": "img-9787",
@@ -6291,9 +6242,8 @@
     "status": "unknown",
     "photo": "/photos/img-9787.webp",
     "spottedAt": "2018-08-23",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
+    "lat": 40.729983,
+    "lng": -74.001817,
     "sign": {
       "dates": "No parking/tow deadline: Tuesday 8/21/2018, 10 PM. Shoot days: WED/THURS 8/22, 23/2018",
       "contact": "Location Manager: Matt, 929.232.0562 (Location Dept. # 929.232.0562)",
@@ -6320,6 +6270,7 @@
         }
       ],
       "decodedAt": "2026-11-09T16:35:16.686Z"
-    }
+    },
+    "gps": "exif"
   }
 ]
