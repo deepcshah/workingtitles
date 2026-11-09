@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Map as MLMap, GeoJSONSource } from "maplibre-gl";
 import type { Kind, Notice, Status } from "@/lib/types";
+import Select from "./Select";
 
 const STYLE_URL = "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
 const NYC: [number, number] = [-73.96, 40.73];
@@ -203,17 +204,17 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
-          <select
-            className="filter"
-            aria-label="Filter notices by decode status"
+          <Select
+            ariaLabel="Filter notices by decode status"
             value={filter}
-            onChange={(e) => setFilter(e.target.value as Filter)}
-          >
-            <option value="all">All notices ({counts.all})</option>
-            <option value="decoded">Decoded ({counts.decoded})</option>
-            <option value="hunch">Hunches ({counts.hunch})</option>
-            <option value="unknown">Unknown ({counts.unknown})</option>
-          </select>
+            onChange={(v) => setFilter(v)}
+            options={[
+              { value: "all", label: `All notices (${counts.all})` },
+              { value: "decoded", label: `Decoded (${counts.decoded})` },
+              { value: "hunch", label: `Hunches (${counts.hunch})` },
+              { value: "unknown", label: `Unknown (${counts.unknown})` },
+            ]}
+          />
         </div>
 
         {selected ? (
