@@ -840,14 +840,22 @@
   },
   {
     "id": "img-0612",
-    "codename": "TBD",
+    "codename": "ACE CASINO",
     "status": "unknown",
     "photo": "/photos/img-0612.webp",
     "spottedAt": "2025-08-09",
     "lat": 40.730522,
     "lng": -73.957833,
     "sign": {},
-    "gps": "exif"
+    "gps": "exif",
+    "kind": "other",
+    "match": {
+      "isCodename": true,
+      "confidence": 0.05,
+      "reasoning": "No source ties an \"ACE CASINO\" shoot notice to any production in August 2025. Searches only returned the 1995 film Casino, sweepstakes-casino reviews, and Scorsese's Netflix series Vegas. Vegas starts filming in July 2026, so it doesn't fit the photo date. I can't identify the production.",
+      "sources": [],
+      "decodedAt": "2026-11-09T18:01:08.233Z"
+    }
   },
   {
     "id": "img-0645",
@@ -956,21 +964,6 @@
         }
       ],
       "decodedAt": "2026-11-09T16:02:31.796Z"
-    },
-    "gps": "exif"
-  },
-  {
-    "id": "img-0672",
-    "codename": "TBD",
-    "status": "unknown",
-    "photo": "/photos/img-0672.webp",
-    "spottedAt": "2018-10-31",
-    "lat": 40.687011,
-    "lng": -73.975686,
-    "sign": {
-      "dates": "Saturday 6:00 PM until Sunday 6:00 PM (in connection with the 2018 NYC Marathon)",
-      "other": "NO PARKING. IN CONNECTION WITH THE 2018 NYC MARATHON. VIOLATORS WILL BE TOWED. New York City Police Department - Patrol Borough Brooklyn North. This is an NYPD parking restriction notice, not a film/TV shoot notice.",
-      "legibility": 0.97
     },
     "gps": "exif"
   },
@@ -1902,35 +1895,6 @@
     "gps": "exif"
   },
   {
-    "id": "img-2504",
-    "codename": "TBD",
-    "status": "unknown",
-    "photo": "/photos/img-2504.webp",
-    "spottedAt": "2017-05-17",
-    "lat": 40.672711,
-    "lng": -73.966683,
-    "sign": {
-      "dates": "Friday May 19 8:00 AM to Saturday May 20 10:00 AM",
-      "other": "NO PARKING; VEHICLES WILL BE TOWED. Faint police-style shield watermark in the background, lettering not legible.",
-      "legibility": 0.95
-    },
-    "gps": "exif"
-  },
-  {
-    "id": "img-2514",
-    "codename": "TBD",
-    "status": "unknown",
-    "photo": "/photos/img-2514.webp",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
-    "sign": {
-      "dates": "Friday May 19 8:00 AM to Saturday May 20 10:00 AM",
-      "other": "NO PARKING. VEHICLES WILL BE TOWED. Faint police-style shield watermark behind the text, not clearly legible.",
-      "legibility": 0.95
-    }
-  },
-  {
     "id": "img-2602",
     "codename": "THE MARVELOUS",
     "status": "hunch",
@@ -2001,35 +1965,6 @@
         }
       ],
       "decodedAt": "2026-11-09T16:09:29.804Z"
-    },
-    "gps": "exif"
-  },
-  {
-    "id": "img-2690",
-    "codename": "TBD",
-    "status": "unknown",
-    "photo": "/photos/img-2690.webp",
-    "spottedAt": "2017-06-08",
-    "lat": 40.713469,
-    "lng": -73.998506,
-    "sign": {
-      "other": "NO POLICE PARKING PERMIT FREE ZONE. VIOLATORS WILL BE TOWED. New York City Police Department. (NYPD shield watermark in background; tiny illegible form code in bottom right corner.)",
-      "legibility": 0.95
-    },
-    "gps": "exif"
-  },
-  {
-    "id": "img-2724",
-    "codename": "TBD",
-    "status": "unknown",
-    "photo": "/photos/img-2724.webp",
-    "spottedAt": "2017-06-14",
-    "lat": 40.719775,
-    "lng": -73.955453,
-    "sign": {
-      "dates": "SUNDAY (no specific date or hours printed)",
-      "other": "Sign reads \"NO PARKING SUNDAY\" and \"POLICE DEPARTMENT\" with a faint NYPD shield watermark. Form code in the lower left appears to be \"SP 134 (11-14)\". The sign is a pink or salmon police parking restriction notice in a plastic sleeve.",
-      "legibility": 0.95
     },
     "gps": "exif"
   },
@@ -5073,13 +5008,34 @@
   },
   {
     "id": "img-7581",
-    "codename": "TBD",
-    "status": "unknown",
+    "codename": "SOMEONE GREAT",
+    "status": "decoded",
     "photo": "/photos/img-7581.webp",
     "spottedAt": "2018-05-03",
     "lat": 40.732492,
     "lng": -74.000206,
-    "gps": "exif"
+    "gps": "exif",
+    "realTitle": "Someone Great",
+    "kind": "film",
+    "year": 2019,
+    "imdb": "https://www.imdb.com/find/?q=Someone%20Great",
+    "letterboxd": "https://letterboxd.com/search/Someone%20Great/",
+    "match": {
+      "isCodename": false,
+      "confidence": 0.96,
+      "reasoning": "The sign shows the real title. Someone Great is the Netflix rom-com written and directed by Jennifer Kaytin Robinson. It was set to start shooting in NYC in spring 2018, which fits the May 3–4, 2018 photo date.",
+      "sources": [
+        {
+          "title": "Someone Great (film) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Someone_Great_(film)"
+        },
+        {
+          "title": "Netflix: Gina Rodriguez to star in Someone Great",
+          "url": "https://about.netflix.com/en/news/golden-globe-winner-gina-rodriguez-to-star-in-someone-great"
+        }
+      ],
+      "decodedAt": "2026-11-09T18:01:14.083Z"
+    }
   },
   {
     "id": "img-7619",
@@ -5608,21 +5564,6 @@
       "decodedAt": "2026-11-09T16:30:53.987Z"
     },
     "gps": "exif"
-  },
-  {
-    "id": "img-8397",
-    "codename": "TBD",
-    "status": "unknown",
-    "photo": "/photos/img-8397.webp",
-    "spottedAt": "2018-06-05",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "notes": "No GPS in photo — fix lat/lng.",
-    "sign": {
-      "dates": "Printed day-of-week signs: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Handwritten dates in red are only partly legible (Tuesday and Thursday appear to read \"06/07\").",
-      "other": "Top sign: \"NO PARKING MONDAY\". Each day sign is marked \"POLICE DEPARTMENT\". The Friday sign adds \"VIOLATORS WILL BE TOWED! New York City Police Department\". The red handwriting at the top is illegible and may say \"Tow away\". The sign is wrapped in plastic on a pole.",
-      "legibility": 0
-    }
   },
   {
     "id": "img-8556",
