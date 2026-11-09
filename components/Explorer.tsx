@@ -272,11 +272,6 @@ function Detail({ notice: n, onBack }: { notice: Notice; onBack: () => void }) {
         ← All notices
       </button>
 
-      {n.photo && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img className="photo" src={n.photo} alt={`Shoot notice for ${n.codename}`} />
-      )}
-
       <div className="decode">
         <div className="label">On the sign</div>
         <div className="sign">{n.codename}</div>
@@ -303,6 +298,11 @@ function Detail({ notice: n, onBack }: { notice: Notice; onBack: () => void }) {
           </div>
         )}
       </div>
+
+      {n.photo && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img className="photo" src={n.photo} alt={`Shoot notice for ${n.codename}`} />
+      )}
 
       {n.match && (n.match.reasoning || n.match.sources.length > 0) && (
         <div className="evidence">

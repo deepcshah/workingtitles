@@ -95,10 +95,10 @@ a { color: inherit; }
 .row:hover .dot { transform: scale(1.18); }
 
 /* detail panel rises in, its sections staggered */
-.detail { overflow-y: auto; flex: 1; padding: 16px 24px 24px; }
+.detail { overflow-y: auto; flex: 1; padding: 0 24px 24px; }
 .detail > * { animation: riseIn 0.4s var(--ease) both; }
-.detail .photo { animation-delay: 45ms; }
-.detail .decode { animation-delay: 95ms; }
+.detail .decode { animation-delay: 45ms; }
+.detail .photo { animation-delay: 95ms; }
 .detail .evidence { animation-delay: 145ms; }
 .detail .links { animation-delay: 190ms; }
 .detail .facts { animation-delay: 235ms; }
@@ -109,7 +109,7 @@ a { color: inherit; }
 /* back stays pinned while the detail scrolls (opacity-only animation keeps sticky intact) */
 .back {
   position: sticky; top: 0; z-index: 2; display: block;
-  width: calc(100% + 48px); margin: -16px -24px 10px; padding: 12px 24px;
+  width: calc(100% + 48px); margin: 0 -24px 12px; padding: 14px 24px;
   background: var(--paper); border-bottom: 1px solid var(--rule);
   font-size: 13px; color: var(--muted); text-align: left;
   animation: fadeIn 0.3s var(--ease) both; transition: color 0.15s var(--ease);
