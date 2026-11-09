@@ -7,12 +7,6 @@ import type { Kind, Notice, Status } from "@/lib/types";
 const STYLE_URL = "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
 const NYC: [number, number] = [-73.96, 40.73];
 
-const STATUS_LABEL: Record<Status, string> = {
-  decoded: "Decoded",
-  hunch: "Hunch",
-  unknown: "Unknown",
-};
-
 const KIND_LABEL: Record<Kind, string> = {
   film: "Film",
   tv: "TV",
@@ -29,7 +23,13 @@ function toGeoJSON(list: Notice[]) {
     features: list.map((n) => ({
       type: "Feature" as const,
       id: n.id,
-      properties: { id: n.id, status: n.status, codename: n.codename },
+      properties: {
+        id: n.id,
+        status: n.status,
+        codename: n.codename,
+        // 0–1; drives the inner-fill radius on the map (empty ring → solid dot)
+        conf: Math.max(0, Math.min(1, n.match?.confidence ?? 0)),
+      },
       geometry: { type: "Point" as const, coordinates: [n.lng, n.lat] },
     })),
   };
@@ -100,28 +100,39 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
             "circle-opacity": 0.55,
           },
         });
+        // outer ring — a paper disc with an ink outline, identical for every notice.
+        // (A full disc, so it owns the whole hit area even though the fill sits on top.)
         map.addLayer({
-          id: "notice-dot",
+          id: "notice-ring",
           type: "circle",
           source: "notices",
           paint: {
-            // grow a touch on hover for tactile feedback
+            // hover bump lives inside the interpolate outputs so the zoom stays top-level
             "circle-radius": [
-              "+",
-              ["interpolate", ["linear"], ["zoom"], 10, 4.5, 15, 8],
-              ["case", ["boolean", ["feature-state", "hover"], false], 2.5, 0],
+              "interpolate", ["linear"], ["zoom"],
+              10, ["case", ["boolean", ["feature-state", "hover"], false], 7, 4.5],
+              15, ["case", ["boolean", ["feature-state", "hover"], false], 10.5, 8],
             ],
             "circle-radius-transition": { duration: 160, delay: 0 },
-            "circle-color": [
-              "match",
-              ["get", "status"],
-              "decoded", "#111111",
-              "hunch", "#e0a100",
-              "#ffffff",
-            ],
+            "circle-color": "#f5f2ea",
             "circle-stroke-color": "#111111",
-            "circle-stroke-width": ["case", ["boolean", ["feature-state", "hover"], false], 2.5, 1.75],
+            "circle-stroke-width": ["case", ["boolean", ["feature-state", "hover"], false], 2.25, 1.75],
             "circle-stroke-width-transition": { duration: 160, delay: 0 },
+          },
+        });
+        // inner fill — ink; radius scales with confidence (empty ring = mystery, solid = sure)
+        map.addLayer({
+          id: "notice-fill",
+          type: "circle",
+          source: "notices",
+          paint: {
+            "circle-radius": [
+              "interpolate", ["linear"], ["zoom"],
+              10, ["*", ["case", ["boolean", ["feature-state", "hover"], false], 7, 4.5], ["get", "conf"]],
+              15, ["*", ["case", ["boolean", ["feature-state", "hover"], false], 10.5, 8], ["get", "conf"]],
+            ],
+            "circle-radius-transition": { duration: 160, delay: 0 },
+            "circle-color": "#111111",
           },
         });
         let hoveredId: string | number | null = null;
@@ -129,11 +140,11 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
           if (hoveredId != null) map.setFeatureState({ source: "notices", id: hoveredId }, { hover: false });
           hoveredId = null;
         };
-        map.on("click", "notice-dot", (e) => {
+        map.on("click", "notice-ring", (e) => {
           const id = e.features?.[0]?.properties?.id as string | undefined;
           if (id) setSelectedId(id);
         });
-        map.on("mousemove", "notice-dot", (e) => {
+        map.on("mousemove", "notice-ring", (e) => {
           map.getCanvas().style.cursor = "pointer";
           const id = e.features?.[0]?.id;
           if (id == null || id === hoveredId) return;
@@ -141,7 +152,7 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
           hoveredId = id;
           map.setFeatureState({ source: "notices", id: hoveredId }, { hover: true });
         });
-        map.on("mouseleave", "notice-dot", () => {
+        map.on("mouseleave", "notice-ring", () => {
           map.getCanvas().style.cursor = "";
           clearHover();
         });
@@ -192,19 +203,17 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
-          <div className="chips" role="tablist">
-            {(["all", "decoded", "hunch", "unknown"] as Filter[]).map((f) => (
-              <button
-                key={f}
-                role="tab"
-                aria-selected={filter === f}
-                className={`chip ${filter === f ? "on" : ""}`}
-                onClick={() => setFilter(f)}
-              >
-                {f === "all" ? "All" : STATUS_LABEL[f]} <span>{counts[f]}</span>
-              </button>
-            ))}
-          </div>
+          <select
+            className="filter"
+            aria-label="Filter notices by decode status"
+            value={filter}
+            onChange={(e) => setFilter(e.target.value as Filter)}
+          >
+            <option value="all">All notices ({counts.all})</option>
+            <option value="decoded">Decoded ({counts.decoded})</option>
+            <option value="hunch">Hunches ({counts.hunch})</option>
+            <option value="unknown">Unknown ({counts.unknown})</option>
+          </select>
         </div>
 
         {selected ? (
@@ -241,7 +250,13 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
         )}
 
         <footer className="foot">
-          {counts.decoded} of {counts.all} decoded · <a href="https://github.com/deepcshah/workingtitles">source</a>
+          <span className="legend" aria-hidden="true">
+            <span className="lg lg0" />
+            <span className="lg lg1" />
+            <span className="lg lg2" />
+          </span>
+          <span>fill = confidence · {counts.decoded}/{counts.all} decoded</span>
+          <a className="src" href="https://github.com/deepcshah/workingtitles">source</a>
         </footer>
       </aside>
 

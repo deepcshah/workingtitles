@@ -47,18 +47,18 @@ a { color: inherit; }
 }
 .search::placeholder { color: var(--muted); }
 .search:focus { box-shadow: 4px 4px 0 var(--hi); }
-.chips { display: flex; gap: 6px; flex-wrap: wrap; }
-/* hover lifts the chip onto an offset shadow; pressing pushes it back down */
-.chip {
-  font-size: 12px; padding: 7px 10px; border: 1.5px solid var(--ink);
-  transition: background-color 0.15s var(--ease), color 0.15s var(--ease),
-    box-shadow 0.15s var(--ease), transform 0.08s var(--ease);
+
+/* compact filter dropdown (replaces the prominent chip row) */
+.filter {
+  justify-self: start; font: inherit; font-family: var(--cond); font-size: 13px;
+  text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink);
+  padding: 7px 30px 7px 10px; background: #fff; border: 1.5px solid var(--ink); border-radius: 0;
+  appearance: none; cursor: pointer; outline: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23111' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center;
+  transition: box-shadow 0.15s var(--ease);
 }
-.chip:hover { box-shadow: 2px 2px 0 var(--ink); transform: translate(-1px, -1px); }
-.chip:active { box-shadow: none; transform: translate(1px, 1px); }
-.chip span { color: var(--muted); margin-left: 3px; }
-.chip.on { background: var(--ink); color: var(--paper); }
-.chip.on span { color: #bbb; }
+.filter:focus-visible { box-shadow: 4px 4px 0 var(--hi); outline: none; }
 
 .list { list-style: none; margin: 0; padding: 0; overflow-y: auto; flex: 1; }
 /* highlighter bar slides in on the left edge on hover */
@@ -80,18 +80,23 @@ a { color: inherit; }
 .row-meta { font-size: 11px; color: var(--muted); text-align: right; line-height: 1.4; }
 .empty { padding: 24px; color: var(--muted); font-size: 14px; }
 
+/* list dot mirrors the map: an ink ring whose inner fill grows with confidence */
 .dot {
-  width: 11px; height: 11px; border-radius: 50%; border: 1.75px solid var(--ink); margin-top: 4px; background: #fff;
+  position: relative; width: 13px; height: 13px; border-radius: 50%;
+  border: 1.75px solid var(--ink); margin-top: 3px; background: #fff;
   transition: transform 0.15s var(--ease);
 }
+.dot::after {
+  content: ""; position: absolute; inset: 0; margin: auto; width: 0; height: 0;
+  border-radius: 50%; background: var(--ink);
+}
+.dot.hunch::after { width: 5px; height: 5px; }
+.dot.decoded::after { width: 9px; height: 9px; }
 .row:hover .dot { transform: scale(1.18); }
-.dot.decoded { background: var(--ink); }
-.dot.hunch { background: var(--hunch); }
 
 /* detail panel rises in, its sections staggered */
 .detail { overflow-y: auto; flex: 1; padding: 16px 24px 24px; }
 .detail > * { animation: riseIn 0.4s var(--ease) both; }
-.detail .back { animation-delay: 0ms; }
 .detail .photo { animation-delay: 45ms; }
 .detail .decode { animation-delay: 95ms; }
 .detail .evidence { animation-delay: 145ms; }
@@ -101,8 +106,16 @@ a { color: inherit; }
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
 }
-.back { font-size: 13px; color: var(--muted); margin-bottom: 14px; transition: color 0.15s var(--ease); }
+/* back stays pinned while the detail scrolls (opacity-only animation keeps sticky intact) */
+.back {
+  position: sticky; top: 0; z-index: 2; display: block;
+  width: calc(100% + 48px); margin: -16px -24px 10px; padding: 12px 24px;
+  background: var(--paper); border-bottom: 1px solid var(--rule);
+  font-size: 13px; color: var(--muted); text-align: left;
+  animation: fadeIn 0.3s var(--ease) both; transition: color 0.15s var(--ease);
+}
 .back:hover { color: var(--ink); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 .photo {
   width: 100%; display: block; border: 1.5px solid var(--ink); margin-bottom: 16px;
   box-shadow: 4px 4px 0 rgba(17, 17, 17, 0.12); /* taped-down depth */
@@ -156,7 +169,23 @@ a { color: inherit; }
 .facts dt { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; padding-top: 2px; }
 .facts dd { margin: 0; line-height: 1.45; }
 
-.foot { padding: 12px 24px; border-top: 1px solid var(--rule); font-size: 12px; color: var(--muted); }
+/* footer doubles as the map legend: ring → filled = low → high confidence */
+.foot {
+  padding: 12px 24px; border-top: 1px solid var(--rule); font-size: 12px; color: var(--muted);
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.legend { display: inline-flex; align-items: center; gap: 5px; }
+.legend .lg {
+  position: relative; width: 13px; height: 13px; border: 1.5px solid var(--ink);
+  border-radius: 50%; background: #fff;
+}
+.legend .lg::after {
+  content: ""; position: absolute; inset: 0; margin: auto; width: 0; height: 0;
+  border-radius: 50%; background: var(--ink);
+}
+.legend .lg1::after { width: 5px; height: 5px; }
+.legend .lg2::after { width: 9px; height: 9px; }
+.foot .src { margin-left: auto; }
 
 @media (max-width: 760px) {
   .shell { grid-template-columns: 1fr; grid-template-rows: 45dvh 1fr; }
