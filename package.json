@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "ingest": "node --env-file-if-exists=.env.local scripts/ingest.mjs",
-    "decode-missing": "node --env-file-if-exists=.env.local scripts/ingest.mjs --decode-missing"
+    "decode-missing": "node --env-file-if-exists=.env.local scripts/ingest.mjs --decode-missing",
+    "refresh-gps": "node --env-file-if-exists=.env.local scripts/ingest.mjs --refresh-gps",
+    "geocode": "node --env-file-if-exists=.env.local scripts/geocode.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

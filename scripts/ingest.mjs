@@ -103,6 +103,37 @@ if (args[0] === "--redecode" || args[0] === "--decode-missing") {
   process.exit(0);
 }
 
+// ---- refresh GPS from re-exported photos (no decode, no API key) ----
+// Photos exported without "Location Information" lose their GPS. Re-export the
+// originals with location on, drop them back in photos/inbox/, and run this to
+// pull the coordinates into existing entries by filename. EXIF wins over a
+// caption-geocoded estimate; screenshots (no EXIF GPS) keep their estimate.
+if (args[0] === "--refresh-gps") {
+  const byId = new Map(notices.map((n) => [n.id, n]));
+  const files = (await readdir(INBOX)).filter((f) => EXT.test(f)).sort();
+  let updated = 0, noGps = 0, noEntry = 0;
+  for (const file of files) {
+    const id = slug(file);
+    const n = byId.get(id);
+    if (!n) { noEntry++; continue; }
+    let meta = {};
+    try {
+      meta = (await exifr.parse(path.join(INBOX, file), { gps: true, pick: ["latitude", "longitude"] })) ?? {};
+    } catch {}
+    if (meta.latitude == null || meta.longitude == null) { noGps++; continue; }
+    n.lat = Number(meta.latitude.toFixed(6));
+    n.lng = Number(meta.longitude.toFixed(6));
+    n.gps = "exif";
+    delete n.geo; // real GPS beats a caption-geocoded estimate
+    if (n.notes === "No GPS in photo — fix lat/lng.") delete n.notes;
+    updated++;
+    console.log(`  ✓ ${id} → ${n.lat}, ${n.lng}`);
+  }
+  await save();
+  console.log(`\nRefreshed GPS on ${updated} entr${updated === 1 ? "y" : "ies"}. ${noGps} still without GPS, ${noEntry} file(s) with no matching entry.`);
+  process.exit(0);
+}
+
 // ---- normal ingest ----
 const known = new Set(notices.map((n) => n.id));
 const files = (await readdir(INBOX)).filter((f) => EXT.test(f)).sort();
