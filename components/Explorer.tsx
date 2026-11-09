@@ -3,15 +3,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Map as MLMap, GeoJSONSource } from "maplibre-gl";
 import type { Kind, Notice, Status } from "@/lib/types";
+import Select from "./Select";
 
 const STYLE_URL = "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json";
 const NYC: [number, number] = [-73.96, 40.73];
-
-const STATUS_LABEL: Record<Status, string> = {
-  decoded: "Decoded",
-  hunch: "Hunch",
-  unknown: "Unknown",
-};
 
 const KIND_LABEL: Record<Kind, string> = {
   film: "Film",
@@ -29,7 +24,13 @@ function toGeoJSON(list: Notice[]) {
     features: list.map((n) => ({
       type: "Feature" as const,
       id: n.id,
-      properties: { id: n.id, status: n.status, codename: n.codename },
+      properties: {
+        id: n.id,
+        status: n.status,
+        codename: n.codename,
+        // 0–1; drives the inner-fill radius on the map (empty ring → solid dot)
+        conf: Math.max(0, Math.min(1, n.match?.confidence ?? 0)),
+      },
       geometry: { type: "Point" as const, coordinates: [n.lng, n.lat] },
     })),
   };
@@ -95,33 +96,67 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
           source: "notices",
           paint: {
             "circle-radius": ["case", ["boolean", ["feature-state", "selected"], false], 16, 0],
+            "circle-radius-transition": { duration: 220, delay: 0 },
             "circle-color": "#ffd400",
             "circle-opacity": 0.55,
           },
         });
+        // outer ring — a paper disc with an ink outline, identical for every notice.
+        // (A full disc, so it owns the whole hit area even though the fill sits on top.)
         map.addLayer({
-          id: "notice-dot",
+          id: "notice-ring",
           type: "circle",
           source: "notices",
           paint: {
-            "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 4.5, 15, 8],
-            "circle-color": [
-              "match",
-              ["get", "status"],
-              "decoded", "#111111",
-              "hunch", "#e0a100",
-              "#ffffff",
+            // hover bump lives inside the interpolate outputs so the zoom stays top-level
+            "circle-radius": [
+              "interpolate", ["linear"], ["zoom"],
+              10, ["case", ["boolean", ["feature-state", "hover"], false], 7, 4.5],
+              15, ["case", ["boolean", ["feature-state", "hover"], false], 10.5, 8],
             ],
+            "circle-radius-transition": { duration: 160, delay: 0 },
+            "circle-color": "#f5f2ea",
             "circle-stroke-color": "#111111",
-            "circle-stroke-width": 1.75,
+            "circle-stroke-width": ["case", ["boolean", ["feature-state", "hover"], false], 2.25, 1.75],
+            "circle-stroke-width-transition": { duration: 160, delay: 0 },
           },
         });
-        map.on("click", "notice-dot", (e) => {
+        // inner fill — ink; radius scales with confidence (empty ring = mystery, solid = sure)
+        map.addLayer({
+          id: "notice-fill",
+          type: "circle",
+          source: "notices",
+          paint: {
+            "circle-radius": [
+              "interpolate", ["linear"], ["zoom"],
+              10, ["*", ["case", ["boolean", ["feature-state", "hover"], false], 7, 4.5], ["get", "conf"]],
+              15, ["*", ["case", ["boolean", ["feature-state", "hover"], false], 10.5, 8], ["get", "conf"]],
+            ],
+            "circle-radius-transition": { duration: 160, delay: 0 },
+            "circle-color": "#111111",
+          },
+        });
+        let hoveredId: string | number | null = null;
+        const clearHover = () => {
+          if (hoveredId != null) map.setFeatureState({ source: "notices", id: hoveredId }, { hover: false });
+          hoveredId = null;
+        };
+        map.on("click", "notice-ring", (e) => {
           const id = e.features?.[0]?.properties?.id as string | undefined;
           if (id) setSelectedId(id);
         });
-        map.on("mouseenter", "notice-dot", () => (map.getCanvas().style.cursor = "pointer"));
-        map.on("mouseleave", "notice-dot", () => (map.getCanvas().style.cursor = ""));
+        map.on("mousemove", "notice-ring", (e) => {
+          map.getCanvas().style.cursor = "pointer";
+          const id = e.features?.[0]?.id;
+          if (id == null || id === hoveredId) return;
+          clearHover();
+          hoveredId = id;
+          map.setFeatureState({ source: "notices", id: hoveredId }, { hover: true });
+        });
+        map.on("mouseleave", "notice-ring", () => {
+          map.getCanvas().style.cursor = "";
+          clearHover();
+        });
         setReady(true);
       });
     })();
@@ -169,23 +204,21 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
-          <div className="chips" role="tablist">
-            {(["all", "decoded", "hunch", "unknown"] as Filter[]).map((f) => (
-              <button
-                key={f}
-                role="tab"
-                aria-selected={filter === f}
-                className={`chip ${filter === f ? "on" : ""}`}
-                onClick={() => setFilter(f)}
-              >
-                {f === "all" ? "All" : STATUS_LABEL[f]} <span>{counts[f]}</span>
-              </button>
-            ))}
-          </div>
+          <Select
+            ariaLabel="Filter notices by decode status"
+            value={filter}
+            onChange={(v) => setFilter(v)}
+            options={[
+              { value: "all", label: `All notices (${counts.all})` },
+              { value: "decoded", label: `Decoded (${counts.decoded})` },
+              { value: "hunch", label: `Hunches (${counts.hunch})` },
+              { value: "unknown", label: `Unknown (${counts.unknown})` },
+            ]}
+          />
         </div>
 
         {selected ? (
-          <Detail notice={selected} onBack={() => setSelectedId(null)} />
+          <Detail key={selected.id} notice={selected} onBack={() => setSelectedId(null)} />
         ) : (
           <ul className="list">
             {visible.map((n) => (
@@ -218,7 +251,13 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
         )}
 
         <footer className="foot">
-          {counts.decoded} of {counts.all} decoded · <a href="https://github.com/deepcshah/workingtitles">source</a>
+          <span className="legend" aria-hidden="true">
+            <span className="lg lg0" />
+            <span className="lg lg1" />
+            <span className="lg lg2" />
+          </span>
+          <span>fill = confidence · {counts.decoded}/{counts.all} decoded</span>
+          <a className="src" href="https://github.com/deepcshah/workingtitles">source</a>
         </footer>
       </aside>
 
@@ -233,11 +272,6 @@ function Detail({ notice: n, onBack }: { notice: Notice; onBack: () => void }) {
       <button className="back" onClick={onBack}>
         ← All notices
       </button>
-
-      {n.photo && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img className="photo" src={n.photo} alt={`Shoot notice for ${n.codename}`} />
-      )}
 
       <div className="decode">
         <div className="label">On the sign</div>
@@ -265,6 +299,11 @@ function Detail({ notice: n, onBack }: { notice: Notice; onBack: () => void }) {
           </div>
         )}
       </div>
+
+      {n.photo && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img className="photo" src={n.photo} alt={`Shoot notice for ${n.codename}`} />
+      )}
 
       {n.match && (n.match.reasoning || n.match.sources.length > 0) && (
         <div className="evidence">
