@@ -95,6 +95,7 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
           source: "notices",
           paint: {
             "circle-radius": ["case", ["boolean", ["feature-state", "selected"], false], 16, 0],
+            "circle-radius-transition": { duration: 220, delay: 0 },
             "circle-color": "#ffd400",
             "circle-opacity": 0.55,
           },
@@ -104,7 +105,13 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
           type: "circle",
           source: "notices",
           paint: {
-            "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 4.5, 15, 8],
+            // grow a touch on hover for tactile feedback
+            "circle-radius": [
+              "+",
+              ["interpolate", ["linear"], ["zoom"], 10, 4.5, 15, 8],
+              ["case", ["boolean", ["feature-state", "hover"], false], 2.5, 0],
+            ],
+            "circle-radius-transition": { duration: 160, delay: 0 },
             "circle-color": [
               "match",
               ["get", "status"],
@@ -113,15 +120,31 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
               "#ffffff",
             ],
             "circle-stroke-color": "#111111",
-            "circle-stroke-width": 1.75,
+            "circle-stroke-width": ["case", ["boolean", ["feature-state", "hover"], false], 2.5, 1.75],
+            "circle-stroke-width-transition": { duration: 160, delay: 0 },
           },
         });
+        let hoveredId: string | number | null = null;
+        const clearHover = () => {
+          if (hoveredId != null) map.setFeatureState({ source: "notices", id: hoveredId }, { hover: false });
+          hoveredId = null;
+        };
         map.on("click", "notice-dot", (e) => {
           const id = e.features?.[0]?.properties?.id as string | undefined;
           if (id) setSelectedId(id);
         });
-        map.on("mouseenter", "notice-dot", () => (map.getCanvas().style.cursor = "pointer"));
-        map.on("mouseleave", "notice-dot", () => (map.getCanvas().style.cursor = ""));
+        map.on("mousemove", "notice-dot", (e) => {
+          map.getCanvas().style.cursor = "pointer";
+          const id = e.features?.[0]?.id;
+          if (id == null || id === hoveredId) return;
+          clearHover();
+          hoveredId = id;
+          map.setFeatureState({ source: "notices", id: hoveredId }, { hover: true });
+        });
+        map.on("mouseleave", "notice-dot", () => {
+          map.getCanvas().style.cursor = "";
+          clearHover();
+        });
         setReady(true);
       });
     })();
@@ -185,7 +208,7 @@ export default function Explorer({ notices }: { notices: Notice[] }) {
         </div>
 
         {selected ? (
-          <Detail notice={selected} onBack={() => setSelectedId(null)} />
+          <Detail key={selected.id} notice={selected} onBack={() => setSelectedId(null)} />
         ) : (
           <ul className="list">
             {visible.map((n) => (
